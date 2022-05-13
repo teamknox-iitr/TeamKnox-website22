@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.footer {
+    background-color: #0D0D0D;
+    padding: 4rem 9rem 9rem 9rem;
+}
+
+.footerLogo {
+    width: 7rem;
+}
+
+.details {
+    display: flex;
+    gap: 2rem;
+}
+
+.detailsCol {
+    flex: 1;
+}
+
+.detailsCol > h4 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-size: 0.9rem;
+}
+
+.detailsCol > p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    color: rgba(255, 251, 254, 0.8);
+    font-size: 0.9rem;
+}
+
+.socialLinks > p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    color: rgba(255, 251, 254, 0.8);
+    font-size: 0.9rem;
+    display: flex;
+    gap: 0.8rem;
+}
+
+.footerInfo {
+    display: flex;
+    padding: 2rem 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0.02)), #0D0D0D;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    color: rgba(255, 251, 254, 0.8);
+    font-size: 0.75rem;
+    padding: 1.5rem 9rem;
+}

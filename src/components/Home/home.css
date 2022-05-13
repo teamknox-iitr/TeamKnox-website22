@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@font-face {
+    font-family: Road;
+    src: url('../../assets/Brightside-Rough.ttf');
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(90deg, #0D0D0D 0%, rgba(13, 13, 13, 0) 100%), url('../../assets/hero.png') no-repeat center / cover;
+}
+
+.hero_content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-115%, -20%);
+    text-align: center;
+}
+
+.hero_content > h4 {
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    margin-bottom: 1.2rem;
+    min-width: max-content;
+}
+
+.hero_content > h2 {
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 3rem;
+    letter-spacing: -1.2px;
+    line-height: 3.5rem;
+    min-width: max-content;
+}
+
+h5 {
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    color: rgba(255, 251, 254, 0.8);
+    font-size: 1.2rem;
+    letter-spacing: -0.3px;
+    line-height: 2rem;
+    min-width: max-content;
+}
+
+.road {
+    font-family: Road;
+    font-weight: 400;
+    color: #FF7C00;
+    font-size: 6rem;
+    letter-spacing: -1.2px;
+}
+
+.know {
+    background-color: #0D0D0D;
+    padding: 8rem;
+    display: flex;
+    align-items: center;
+    gap: 8rem;
+}
+
+.atv {
+    background-color: #0D0D0D;
+    padding: 0 8rem;
+    display: flex;
+    align-items: center;
+    gap: 8rem;
+}
+
+.left_know > h2, .right_atv > h2, .news > h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 2rem;
+    letter-spacing: -1.2px;
+    color: #FFFFFF;
+    padding-bottom: 2rem;
+}
+
+.left_know > p, .right_atv > p, .news > p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    letter-spacing: -0.3px;
+    color: rgba(255, 251, 254, 0.8);
+}
+
+.learnMore {
+    all: unset;
+    cursor: pointer;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 4rem;
+    letter-spacing: -0.2px;
+    color: #FF7C00;
+}
+
+.wheelImg {
+    padding-bottom: 1.5rem;
+}
+
+.knowImg {
+    width: 30rem;
+    position: relative;
+    z-index: 2;
+}
+
+.gearImg {
+    position: absolute;
+    top: 120vh;
+    right: 2vw;
+    z-index: 0;
+}
+
+.atvImg {
+    width: 32rem;
+}
+
+.partner {
+    padding: 1rem 8rem;
+    background-color: #0D0D0D;
+}
+
+.partner > h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 5rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #969696;
+}
+
+.partLogo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6rem;
+}
+
+.news {
+    background-color: #0D0D0D;
+    padding: 8rem;
+    text-align: center;
+}
+
+@media(max-width: 80em) {
+    .hero_content {
+        transform: translate(-100%, -20%);
+    }
+}
+
+@media(max-width: 60em) {
+    .hero_content {
+        transform: translate(-50%, -20%);
+    }
+}

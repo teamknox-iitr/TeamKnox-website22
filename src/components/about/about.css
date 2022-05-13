@@ -1,0 +1,23 @@
+.aboutHero > img {
+    display: block;
+}
+
+.aboutDesc {
+    background: rgba(18, 18, 18, 0.9);
+    width: 40%;
+    padding: 4rem 3rem 4rem 12rem;
+    position: absolute;
+    right: 0;
+    transform: translate(0, -50%);
+}
+
+.aboutDesc > p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    text-align: justify;
+    letter-spacing: -0.3px;
+    color: #CFCCCE;
+}
