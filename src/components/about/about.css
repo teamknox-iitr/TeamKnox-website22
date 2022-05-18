@@ -5,7 +5,7 @@
 .aboutDesc {
     background: rgba(18, 18, 18, 0.9);
     width: 40%;
-    padding: 4rem 3rem 4rem 12rem;
+    padding: 4rem 3rem 4rem 15rem;
     position: absolute;
     right: 0;
     transform: translate(0, -50%);
@@ -20,4 +20,87 @@
     text-align: justify;
     letter-spacing: -0.3px;
     color: #CFCCCE;
+}
+
+.aboutTitle {
+    position: absolute;
+    right: 48%;
+    transform: translate(0, -200%);
+}
+
+.aboutTitle > h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.5rem;
+    letter-spacing: -1.2px;
+    color: #FFFFFF;
+}
+
+.team {
+    background: #0D0D0D;
+    padding: 4rem 8rem;
+    text-align: center;
+}
+
+.team > h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 5rem;
+    letter-spacing: -1.6px;
+    color: #FFFFFF;
+}
+
+.team > p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    letter-spacing: -0.3px;
+    color: #CFCCCE;
+}
+
+.teamTabs {
+    padding-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.teamTab {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: #CFCCCE;
+    cursor: pointer;
+}
+
+.activeTeamTab {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: #FFFFFF;
+    border-bottom: 0.15rem solid #FF7C00;
+    cursor: pointer;
+}
+
+.teamTab > h3, .activeTeamTab > h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    letter-spacing: -0.3px;
+}
+
+.teamTab:hover {
+    color: #FFFFFF;
+}
+
+.teamMembers {
+    padding-top: 4rem;
 }

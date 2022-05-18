@@ -160,6 +160,90 @@ h5 {
     text-align: center;
 }
 
+.stats {
+    background-color: #0D0D0D;
+    padding: 0 8rem 8rem 8rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.statLine1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.statInfo > p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    letter-spacing: -0.3px;
+    color: rgba(255, 251, 254, 0.8);
+}
+
+.statInfo > h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 5rem;
+    letter-spacing: -1.6px;
+    color: #FF7C00;
+}
+
+.statCard {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 12px;
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    padding: 3rem 2rem;
+    gap: 6rem;
+    max-width: fit-content;
+}
+
+.statDesc > p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.85rem;
+    line-height: 1.5rem;
+    letter-spacing: -0.3px;
+    color: rgba(255, 251, 254, 0.5);
+    text-align: left;
+}
+
+.statDesc > h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3rem;
+    letter-spacing: -0.3px;
+    color: rgba(255, 251, 254, 0.5);
+    text-align: left;
+}
+
+.statCardTitle {
+    position: absolute;
+    left: 50%;
+    transform: translate(150%, 300%);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.85rem;
+    line-height: 1.5rem;
+    letter-spacing: -0.3px;
+    color: rgba(255, 251, 254, 0.5);
+    text-align: left;
+}
+
 @media(max-width: 80em) {
     .hero_content {
         transform: translate(-100%, -20%);

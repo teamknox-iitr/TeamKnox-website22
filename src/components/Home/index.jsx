@@ -46,6 +46,36 @@ const Home = () => {
                     <img src={ know } className="knowImg" />
                 </div>
             </div>
+            <div className="stats">
+                <div className="statLine1">
+                    <div className="statInfo">
+                        <p>Rank</p>
+                        <h2>1</h2>
+                        <p>among all IITs</p>
+                    </div>
+                    <div className="statInfo">
+                        <p>An experience of</p>
+                        <h2>10</h2>
+                        <p>years in building awesome ATVs</p>
+                    </div>
+                    <div className="statInfo">
+                        <p>A family of</p>
+                        <h2>2.9k+</h2>
+                        <p>people who have watched us grow</p>
+                    </div>
+                </div>
+                <div className="statCard">
+                    <div className="statInfo">
+                        <p>Rank</p>
+                        <h2 style={{fontSize: '6rem'}}>6</h2>
+                    </div>
+                    <div className="statDesc">
+                        <p>DYNAMIC EVENT</p>
+                        <h2><span style={{color: '#FFF', fontWeight: 700}}>ACCLERATION</span> event</h2>
+                    </div>
+                    <p className="statCardTitle">BAJA SAE 2022</p>
+                </div>
+            </div>
             <div className="atv">
                 <div className="left_atv">
                     <img src={atv} className="atvImg"/>
@@ -53,7 +83,7 @@ const Home = () => {
                 <div className="right_atv">
                     <h2>Our <span style={{color: '#FF7C00', fontWeight: 700}}>ATVs</span></h2>
                     <p>
-                        Some text..........o you;'e trying to surf a site like myspace, hotmail or yahoo mail from work or school and its blocked.
+                        Our journey so far has been phenomenal. We’ve built more than ten ATVs over the years and each new addition to the contigent is better than ever.
                     </p>
                     <Link to="/atv" className="learnMore">Learn More</Link>
                 </div>

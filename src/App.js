@@ -5,6 +5,7 @@ import Navbar from './components/navbar';
 import Home from './components/Home';
 import ScrollToTop from './components/ScrollToTop';
 import About from './components/about';
+import Sponsor from './components/sponsor';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path='/about' element={<About />} />
+          <Route path='/sponsors' element={<Sponsor />} />
         </Routes>
         <Footer />
       </BrowserRouter>
