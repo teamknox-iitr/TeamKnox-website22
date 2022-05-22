@@ -1,5 +1,30 @@
 [
     {
-        "title": "This is marketing title"
+        "name": "Riya Tomar",
+        "position": "Marketing Head",
+        "image": "https://media-exp1.licdn.com/dms/image/C4D03AQF-CUeLdnYABg/profile-displayphoto-shrink_400_400/0/1652941481077?e=1658966400&v=beta&t=yuOttVdfw6XfdCALJdkhon6T3c7fTA3MQKGdVas5PtE",
+        "linkedin": "https://www.linkedin.com/in/riya-tomar-18874219b",
+        "facebook": "https://www.facebook.com/profile.php?id=100045586424500"
+    },
+    {
+        "name": "Rohini Choudhari",
+        "position": "Sponsorship Head",
+        "image": "https://api.ecelliitr.org/media_files/team/image_-_ROHINI_KAILAS.jpeg",
+        "linkedin": "https://www.linkedin.com/in/rohini-choudhari-14bb86194/",
+        "facebook": "https://www.facebook.com/rohini.choudhari.9277"
+    },
+    {
+        "name": "Uma Sai Suvarchala ",
+        "position": "Executive ",
+        "image": "https://drive.google.com/uc?id=1Z3K6K8alO7CAxQ8bSICV6C9PQaVo4DuC",
+        "linkedin": "https://www.linkedin.com/in/dommeti-uma-sai-suvarchala-102b951a2",
+        "facebook": "https://www.facebook.com/suvarchala.dommeti"
+    },
+    {
+        "name": "Rishav Kumar",
+        "position": "Executive",
+        "image": "https://drive.google.com/uc?id=1ZJ-fmgynjoYFvlQxjFSiqO1nLQI_4RKb",
+        "linkedin": "https://www.linkedin.com/in/rishav-kumar-17aa70200/?originalSubdomain=in",
+        "facebook": "https://www.facebook.com/profile.php?id=100014569385328"
     }
 ]

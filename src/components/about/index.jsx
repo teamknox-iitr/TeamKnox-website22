@@ -16,9 +16,13 @@ import steeringData from './data/steering.json';
 import brakingData from './data/braking.json';
 import marketingData from './data/marketing.json';
 import designData from './data/design.json';
+import faculty from './data/faculty.json';
+import management from './data/management.json';
+import TeamCard from "../teamCard";
+import FacultyCard from "../facultyCard";
 
 const About = () => {
-    const [data, setData] = useState(powertrainData[0].title);
+    const [data, setData] = useState(powertrainData);
     const [tabStyle1, setTabStyle1] = useState("activeTeamTab");
     const [tabStyle2, setTabStyle2] = useState("teamTab");
     const [tabStyle3, setTabStyle3] = useState("teamTab");
@@ -35,7 +39,7 @@ const About = () => {
         setTabStyle5("teamTab");
         setTabStyle6("teamTab");
         setTabStyle7("teamTab");
-        setData(powertrainData[0].title);
+        setData(powertrainData);
     };
     const changeStyle2 = () => {
         setTabStyle1("teamTab");
@@ -45,7 +49,7 @@ const About = () => {
         setTabStyle5("teamTab");
         setTabStyle6("teamTab");
         setTabStyle7("teamTab");
-        setData(rollcageData[0].title);
+        setData(rollcageData);
     };
     const changeStyle3 = () => {
         setTabStyle1("teamTab");
@@ -55,7 +59,7 @@ const About = () => {
         setTabStyle5("teamTab");
         setTabStyle6("teamTab");
         setTabStyle7("teamTab");
-        setData(suspensionData[0].title);
+        setData(suspensionData);
     };
     const changeStyle4 = () => {
         setTabStyle1("teamTab");
@@ -65,7 +69,7 @@ const About = () => {
         setTabStyle5("teamTab");
         setTabStyle6("teamTab");
         setTabStyle7("teamTab");
-        setData(steeringData[0].title);
+        setData(steeringData);
     };
     const changeStyle5 = () => {
         setTabStyle1("teamTab");
@@ -75,7 +79,7 @@ const About = () => {
         setTabStyle5("activeTeamTab");
         setTabStyle6("teamTab");
         setTabStyle7("teamTab");
-        setData(brakingData[0].title);
+        setData(brakingData);
     };
     const changeStyle6 = () => {
         setTabStyle1("teamTab");
@@ -85,7 +89,7 @@ const About = () => {
         setTabStyle5("teamTab");
         setTabStyle6("activeTeamTab");
         setTabStyle7("teamTab");
-        setData(marketingData[0].title);
+        setData(marketingData);
     };
     const changeStyle7 = () => {
         setTabStyle1("teamTab");
@@ -95,7 +99,7 @@ const About = () => {
         setTabStyle5("teamTab");
         setTabStyle6("teamTab");
         setTabStyle7("activeTeamTab");
-        setData(designData[0].title);
+        setData(designData);
     };
     
     return (
@@ -116,6 +120,37 @@ const About = () => {
                 <h2>The <span style={{color: '#FF7C00'}}>Team</span></h2>
                 <p>The strength of the team is each individual member</p>
                 <p>The strength of each member is the team</p>
+                <div className="management">
+                    {
+                        faculty.map((index) => {
+                            return (
+                                <FacultyCard 
+                                    name={index.title}
+                                    position={index.position}
+                                    image={index.image}
+                                    link1={index.link}
+                                    link2={index.email}
+                                />
+                            )
+                        })
+                    }
+                </div>
+                <div className="management">
+                    {
+                        management.map((index) => {
+                            return (
+                                <TeamCard 
+                                    name={index.name}
+                                    position={index.position}
+                                    image={index.image}
+                                    link1={index.linkedin}
+                                    link2={index.facebook}
+                                />
+                            )
+                        })
+                    }
+                </div>
+                <br/><br/><br/><br/>
                 <div className="teamTabs">
                     <div className={tabStyle1} onClick={changeStyle1}>
                         <img src={powertrain} height='60vh'/>
@@ -147,14 +182,23 @@ const About = () => {
                     </div>
                 </div>
                 <div className="teamMembers">
-                    <h2 style={{color: 'green'}}>{data}</h2>
+                    {
+                        data.map((index) => {
+                            return (
+                                <TeamCard 
+                                    name={index.name}
+                                    position={index.position}
+                                    image={index.image}
+                                    link1={index.linkedin}
+                                    link2={index.facebook}
+                                />
+                            )
+                        })
+                    }
                 </div>
             </div>
             <div className="team">
                 <h2>Our <span style={{color: '#FF7C00'}}>Alumni</span></h2>
-            </div>
-            <div className="team">
-                <h2>Our <span style={{color: '#FF7C00'}}>Faculty Advisors</span></h2>
             </div>
         </div>
     )

@@ -1,5 +1,23 @@
 [
     {
-        "title": "This is rollcage title"
+        "name": "Shrikant Garg",
+        "position": "Head",
+        "image": "https://drive.google.com/uc?id=13lO742xBnEByAWUJCKb2CS2zIHXFABqm",
+        "linkedin": "https://www.linkedin.com/in/shri-kant-813ab6229",
+        "facebook": "https://www.facebook.com/profile.php?id=100057876019353"
+    },
+    {
+        "name": "Kritika",
+        "position": "Member",
+        "image": "https://media-exp1.licdn.com/dms/image/C5603AQG7n89cgCba_w/profile-displayphoto-shrink_400_400/0/1608094320104?e=1658966400&v=beta&t=VFaYtgsjHLz7Qj5EhHD4K5lxHOifgsr8kdJFOA6bbtQ",
+        "linkedin": "https://www.linkedin.com/in/kritika-20b000128",
+        "facebook": "https://www.facebook.com/kritika.meena.7773"
+    },
+    {
+        "name": "Susmit Walve",
+        "position": "Member",
+        "image": "https://media-exp1.licdn.com/dms/image/C4D03AQF8g6u0a7xylQ/profile-displayphoto-shrink_400_400/0/1622107114904?e=1658966400&v=beta&t=eVXKjNvzvLBSEHLa9YULAIZmO2mN7hXMaWo7HFNOeTE",
+        "linkedin": "https://www.linkedin.com/in/susmit-walve-410323192/?originalSubdomain=in",
+        "facebook": "https://www.facebook.com/susmit.walve"
     }
 ]

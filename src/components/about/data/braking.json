@@ -1,5 +1,23 @@
 [
     {
-        "title": "This is braking title"
+        "name": "Nitin Sahu",
+        "position": "Head",
+        "image": "https://drive.google.com/uc?id=1vhOKdaOjkA0rKSVgxZn3Y0r3KR1BzEBh",
+        "linkedin": "https://www.linkedin.com/in/manav-dharewa-a510981a6/",
+        "facebook": "https://www.facebook.com/manav.dharewa/"
+    },
+    {
+        "name": "Naina Vangani",
+        "position": "Member",
+        "image": "https://drive.google.com/uc?id=1YXAFGaGNQ8Dp3CRmvhPvcqIyLyFz8gWX",
+        "linkedin": "https://www.linkedin.com/in/naina-vangani-282a94185/",
+        "facebook": "https://www.facebook.com/naina.vangani.7"
+    },
+    {
+        "name": "Somchandra Pandey",
+        "position": "Member",
+        "image": "https://scontent.fbom3-1.fna.fbcdn.net/v/t1.6435-9/131920326_154672979774558_6540011688559909074_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=au5VFoEbs6sAX9mLa_C&_nc_ht=scontent.fbom3-1.fna&oh=00_AT8DqO9wQ15L_NsjYrhWQ1_aSgrPSHeBREyF_hW3ZYLFwQ&oe=62AF3F3C",
+        "linkedin": "http://www.linkedin.com/in/somchandra-pandey-146582203",
+        "facebook": "https://www.facebook.com/somchandra.pandey.9"
     }
 ]

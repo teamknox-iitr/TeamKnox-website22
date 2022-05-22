@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Aryan Prasad",
+        "position": "Captain",
+        "image": "https://drive.google.com/uc?id=1UmZbEykjr_oeInCX2D3pEdPcEL7sDytz",
+        "linkedin": "https://www.linkedin.com/in/aryanprasad01/",
+        "facebook": "https://www.facebook.com/aryan.prasad.965"
+    },
+    {
+        "name": "Vidit Garg",
+        "position": "Vice-Captain",
+        "image": "https://media-exp1.licdn.com/dms/image/C4D03AQFTpeGrvQy4eQ/profile-displayphoto-shrink_800_800/0/1650774959196?e=1658966400&v=beta&t=iK5Dv3826PDjS84HM3QNsaFNJOlZ0l19U2hQLHj47jU",
+        "linkedin": "https://www.linkedin.com/in/vidit-garg-28a6221a4/",
+        "facebook": "https://www.facebook.com/profile.php?id=100012399571224"
+    },
+    {
+        "name": "Sankalp Raj",
+        "position": "Secretary",
+        "image": "https://drive.google.com/uc?id=1Ec3EaHJkB4oIQbllm_7MdFqVL0UPyFHY",
+        "linkedin": "https://www.linkedin.com/in/sankalp-raj-23009517a/",
+        "facebook": "https://www.facebook.com/sankalp.raj.50"
+    },
+    {
+        "name": "Abhishek Yadav",
+        "position": "Joint Secretary",
+        "image": "https://drive.google.com/uc?id=1-aLgVhWtbGXE1G5DjGET-joMkrE0kxYK",
+        "linkedin": "https://www.linkedin.com/in/abhishek-yadav-51793b215/",
+        "facebook": "https://www.facebook.com/shakira.rai.754"
+    }
+]

@@ -103,4 +103,17 @@
 
 .teamMembers {
     padding-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+}
+
+.management {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+    padding-top: 4rem;
 }

@@ -1,5 +1,30 @@
 [
     {
-        "title": "This is powertrain title"
+        "name": "Manav Dharewa",
+        "position": "Head",
+        "image": "https://i.stack.imgur.com/l60Hf.png",
+        "linkedin": "https://www.linkedin.com/in/manav-dharewa-a510981a6/",
+        "facebook": "https://www.facebook.com/manav.dharewa/"
+    },
+    {
+        "name": "Kaveti Parameshwar",
+        "position": "Member",
+        "image": "https://drive.google.com/uc?id=1BWgAxUsLXs45ejdnVPiknPi0Atw0QbFY",
+        "linkedin": "https://www.linkedin.com/in/parameshwar-kaveti-456619210/?originalSubdomain=in",
+        "facebook": "https://www.facebook.com/parameshwar.kaveti.7"
+    },
+    {
+        "name": "Rohit Kumar Bamnawat",
+        "position": "Member",
+        "image": "https://media-exp1.licdn.com/dms/image/C5603AQGTwjRId1nnsQ/profile-displayphoto-shrink_400_400/0/1626603143935?e=1658966400&v=beta&t=z64W19KUccZ54QU27GtCair-oVxQ8y_BUXv2zyWmh6g",
+        "linkedin": "https://www.linkedin.com/in/rohit-kumar-456a3419b/",
+        "facebook": "https://www.facebook.com/rm0703235"
+    },
+    {
+        "name": "Subhachandan Kanti",
+        "position": "Member",
+        "image": "https://drive.google.com/uc?id=1X1unXgEg-matO86TNOGSDQ4dqOaku7wE",
+        "facebook": "https://www.facebook.com/profile.php?id=100078199876025",
+        "linkedin": ""
     }
 ]

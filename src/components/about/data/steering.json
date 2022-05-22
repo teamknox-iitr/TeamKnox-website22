@@ -1,5 +1,30 @@
 [
     {
-        "title": "This is steering title"
+        "name": "Somveer Singh",
+        "position": "Head",
+        "image": "https://i.stack.imgur.com/l60Hf.png",
+        "linkedin": "",
+        "facebook": ""
+    },
+    {
+        "name": "Rajkumar Chaudhary",
+        "position": "Member",
+        "image": "https://drive.google.com/uc?id=1-8pcJ_c02W_pXCatXa8aGtU-5EiCzCYI",
+        "linkedin": "https://www.linkedin.com/in/rajkumar-chaudhary-30ba69212",
+        "facebook": "https://www.facebook.com/people/Rajkumar-Chaudhary/100038045132464/"
+    },
+    {
+        "name": "Kunal Chhonkar",
+        "position": "Member",
+        "image": "https://scontent.fbom3-2.fna.fbcdn.net/v/t1.18169-9/12308816_638067263000844_6326305833430759098_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_aid=0&_nc_ohc=lQZN-aZbfRYAX9Yos6f&_nc_ht=scontent.fbom3-2.fna&oh=00_AT9M8WEDQZGVbVbPnqgA6HV71utdCegNgxdzWebOEeOD1A&oe=62B15050",
+        "linkedin": "https://www.linkedin.com/in/kunal-chhonkar-426182222/?originalSubdomain=in",
+        "facebook": "https://www.facebook.com/kunal.chhonkar/"
+    },
+    {
+        "name": "Priyanshu Solanki",
+        "position": "Member",
+        "image": "https://drive.google.com/uc?id=1fgh0N7dpptar9U-eTLpApE3oyRlOHpNS",
+        "linkedin": "https://instagram.com/priyansh_solanki45?igshid=YmMyMTA2M2Y=",
+        "facebook": "https://www.facebook.com/priyansh.solanki.1612"
     }
 ]
