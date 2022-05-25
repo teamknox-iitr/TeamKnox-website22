@@ -1,0 +1,26 @@
+.atvTitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3rem;
+    letter-spacing: -0.1px;
+    color: #FFFFFF;
+}
+
+.atvYear {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    letter-spacing: -0.3px;
+    color: rgba(255, 251, 254, 0.8);
+}
+
+.atvImg {
+    border-radius: 16px;
+    width: 21rem;
+    height: 19rem;
+    object-fit: cover;
+}

@@ -150,8 +150,18 @@ h5 {
 
 .partLogo {
     display: flex;
-    flex-wrap: wrap;
     gap: 6rem;
+}
+
+.logoTitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 2.4rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #969696;
 }
 
 .news {

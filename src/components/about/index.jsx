@@ -20,6 +20,9 @@ import faculty from './data/faculty.json';
 import management from './data/management.json';
 import TeamCard from "../teamCard";
 import FacultyCard from "../facultyCard";
+import AlumCard from "../alumCard";
+import previous from '../../assets/icons/previous.svg';
+import next from '../../assets/icons/next.svg';
 
 const About = () => {
     const [data, setData] = useState(powertrainData);
@@ -101,6 +104,24 @@ const About = () => {
         setTabStyle7("activeTeamTab");
         setData(designData);
     };
+
+    const [alumYear, setAlumYear] = useState(2011);
+    const [alumData, setAlumData] = useState([]);
+
+    async function getAlumData(alumYear) {
+        console.log(alumYear);
+        try {
+            const response = await import("./alumData/" + alumYear + ".json");
+            console.log(response.default);
+            setAlumData(response.default);
+        } catch(error) {
+            console.log(error);
+        }
+    }
+
+    useEffect(() => {
+        getAlumData(2011);
+    }, []);
     
     return (
         <div>
@@ -199,6 +220,34 @@ const About = () => {
             </div>
             <div className="team">
                 <h2>Our <span style={{color: '#FF7C00'}}>Alumni</span></h2>
+                <div style={{ display: 'flex', gap: '0.5rem', alignItems: 'center', justifyContent: 'center'}}>
+                    <img src={previous} style={{cursor: "pointer"}} onClick={() => {
+                        setAlumYear(Math.max(alumYear-1, 2011));
+                        getAlumData(Math.max(alumYear-1, 2011));
+                    }}/>
+                    <p className="yearChange">{alumYear-1} - {alumYear}</p>
+                    <img src={next} style={{cursor: "pointer"}} onClick={() => {
+                        setAlumYear(Math.min(alumYear+1, 2022));
+                        getAlumData(Math.min(alumYear+1, 2022));
+                    }}/>
+                </div>
+                <div className="teamMembers">
+                    {
+                        alumData && alumData.map((index) => {
+                            console.log(index);
+                            return (
+                                <AlumCard 
+                                    name={index.name}
+                                    position={index.position}
+                                    org={index.org}
+                                    image={index.image}
+                                    link1={index.linkedin}
+                                    link2={index.facebook}
+                                />
+                            )
+                        })
+                    }
+                </div>
             </div>
         </div>
     )

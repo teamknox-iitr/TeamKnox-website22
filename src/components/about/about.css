@@ -117,3 +117,13 @@
     gap: 6rem;
     padding-top: 4rem;
 }
+
+.yearChange {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    text-align: center;
+    letter-spacing: -1.2px;
+    color: #FFFFFF;
+}

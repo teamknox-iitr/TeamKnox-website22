@@ -1,0 +1,47 @@
+[
+    {
+        "name": "TITAN",
+        "year": "2020-2021",
+        "image": "https://drive.google.com/uc?id=1e4BzQetwi8LB3m74j9q-pOomqE_8aiO5"
+    },
+    {
+        "name": "NIITRO",
+        "year": "2019-2020",
+        "image": "https://drive.google.com/uc?id=18oXz1o0Ck0jZZ2MIuNlnxUYtsHsPhazx"
+    },
+    {
+        "name": "MK-1",
+        "year": "2018-2019",
+        "image": "https://drive.google.com/uc?id=1O9P7yB5TS-bXhhmXUgpfe34DSCnlKeJP"
+    },
+    {
+        "name": "Sultan",
+        "year": "2016-2017",
+        "image": "https://drive.google.com/uc?id=1V5MVWaqA5cCYqc3G4onlFH9piaYXI9wS"
+    },
+    {
+        "name": "Bruizer",
+        "year": "2014-2015",
+        "image": "https://drive.google.com/uc?id=1_G4HZLtMl7_naPS5c6Q8NpGleVLhNzsc"
+    },
+    {
+        "name": "Thunderstream",
+        "year": "2013-2014",
+        "image": "https://drive.google.com/uc?id=1P6Nyg-PFFvXMQDHgVGSi4W_aI7Vdy1tz"
+    },
+    {
+        "name": "Black Pearl",
+        "year": "2012-2013",
+        "image": "https://drive.google.com/uc?id=1cupkllFfU50x49En5u2pSn4BN6K-zchk"
+    },
+    {
+        "name": "Blaze",
+        "year": "2011-2012",
+        "image": "https://drive.google.com/uc?id=1HyZ0ejDuEGh5qmxWmlC63GvkPWFYf5-f"
+    },
+    {
+        "name": "KNOx",
+        "year": "2010-2011",
+        "image": "https://drive.google.com/uc?id=1gSLlYL-QgI3n9bCb49-2PggIql1V-laL"
+    }
+]

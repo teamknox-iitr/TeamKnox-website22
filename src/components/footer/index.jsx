@@ -18,8 +18,8 @@ function Footer() {
                     </div>
                     <div className="detailsCol">
                         <h4>Contact</h4>
-                        <p>Abhinandan K Malik - +91-9465060887</p>
-                        <p>Gaurav Singhal - +91-9813421501</p>
+                        <p>Aryan Prasad - +91-8910505041</p>
+                        <p>Vidit Garg - +91-7589002711</p>
                     </div>
                     <div className="detailsCol">
                         <h4>Email</h4>

@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Maunik Patel",
+        "image": "https://drive.google.com/uc?id=1QLuoXFrdvl8Li4UioaMylF-j15i9uJAP",
+        "position": "Project Engineer",
+        "org": "Shell",
+        "facebook": "https://www.facebook.com/maunik.bpatel",
+        "linkedin": "https://www.linkedin.com/in/maunik-patel-0374b257/"
+    },
+    {
+        "name": "Tarun Verma",
+        "image": "https://drive.google.com/uc?id=1n3RaxAiXGcz9YMUNZRhhwabZ2S96c2z1",
+        "position": "Consultant",
+        "org": "BCG",
+        "facebook": "",
+        "linkedin": "https://www.linkedin.com/in/vtarun07/"
+    },
+    {
+        "name": "Nitish Dhawan",
+        "image": "https://drive.google.com/uc?id=1zqs6HjZN3qiorZtPv1IarQykQCXti0Lt",
+        "position": "Project Engineer",
+        "org": "ISRO",
+        "facebook": "https://www.facebook.com/ndhawan1",
+        "linkedin": "https://www.linkedin.com/in/nitish-dhawan-6032681b/"
+    },
+    {
+        "name": "Shantanu Mahendra",
+        "image": "https://drive.google.com/uc?id=1RIrg7y_guAfeLx_MDsfBpDSBKqNBnPkF",
+        "position": "Multi Regional Ops Manager",
+        "org": "Amazon UK",
+        "facebook": "https://www.facebook.com/shantanu2804",
+        "linkedin": "https://www.linkedin.com/in/shantanu-mahendra-1b142a23/"
+    }
+]

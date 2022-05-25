@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Suyash Patel",
+        "image": "https://media-exp1.licdn.com/dms/image/C5103AQE_qradhMp56A/profile-displayphoto-shrink_400_400/0/1537678924370?e=1658966400&v=beta&t=WEPxmULTpq4mdoiN2IN_xpsrv7CbPRExIF_XLln_Gbs",
+        "position": "Consultant",
+        "org": "Deloitte USI",
+        "facebook": "",
+        "linkedin": "https://www.linkedin.com/in/suyash-patel-36955849/"
+    },
+    {
+        "name": "Rohan Kimothi",
+        "image": "https://media-exp1.licdn.com/dms/image/C4E03AQFJ1_1I5Z3oMA/profile-displayphoto-shrink_400_400/0/1631190171620?e=1658966400&v=beta&t=uAsxdYbULkzFj-ofZxN2mCLesxWpz24otZtBaKl2p3o",
+        "position": "Associate Solution Architect",
+        "org": "HighRadius",
+        "facebook": "",
+        "linkedin": "https://www.linkedin.com/in/rohan-kimothi/"
+    },
+    {
+        "name": "Ayush Jain",
+        "image": "https://media-exp1.licdn.com/dms/image/C5603AQEcOfY0sRAdDA/profile-displayphoto-shrink_400_400/0/1626323906696?e=1658966400&v=beta&t=2h_MNVqAYSO7abJcMYjZH4vT8xzNlnFbflGg71uA0-o",
+        "position": "Senior Forecast Analyst",
+        "org": "Amazon",
+        "facebook": "https://www.facebook.com/ayush.jain.10441",
+        "linkedin": "https://www.linkedin.com/in/ayush-jain-753b452b/"
+    }
+]

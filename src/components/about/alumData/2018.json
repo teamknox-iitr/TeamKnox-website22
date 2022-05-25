@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Sahil Jindal",
+    "image": "https://drive.google.com/uc?id=1j92ew_g15ZvEPl_360JAwdQvBkoBLDuJ",
+    "position": "Senior Reliability Engineer",
+    "org": "Western Digital",
+    "facebook": "https://www.facebook.com/sahil246jindal",
+    "linkedin": "https://www.linkedin.com/in/s246j/"
+  },
+  {
+    "name": "Bharat Gera",
+    "image": "https://drive.google.com/uc?id=1JTNPhIJhRCBFG80Ja2yQSRWd4aV_PPvN",
+    "position": "Product Manager",
+    "org": "Sprinklr",
+    "facebook": "https://www.facebook.com/bharat.gera.75",
+    "linkedin": "https://www.linkedin.com/in/bharat-gera/"
+  },
+  {
+    "name": "Apurv Pandit",
+    "image": "https://drive.google.com/uc?id=1AqTHt8G9XoPV5cvxmDRvSFDkCS8YLFNa",
+    "position": "Strategy Analyst",
+    "org": "Accenture",
+    "facebook": "",
+    "linkedin": "https://www.linkedin.com/in/apurv-pandit-3455a3102/"
+  },
+  {
+    "name": "Mohammad Naved Tak",
+    "image": "https://drive.google.com/uc?id=1BGEhhzsGXQF31PjGGu1izGJ976oC3kdT",
+    "position": "Consulting Intern",
+    "org": "Marsh McLennan",
+    "facebook": "",
+    "linkedin": "https://www.linkedin.com/in/mohammad-naved-tak/"
+  },
+  {
+    "name": "Rohit Agrawal",
+    "image": "https://drive.google.com/uc?id=1euzR9yJZzYO_J63FbUMULCo0mIppn_NG",
+    "position": "Site Reliability Engineer",
+    "org": "CRED",
+    "facebook": "",
+    "linkedin": "https://www.linkedin.com/in/rohit-agrawal-018616112/"
+  },
+  {
+    "name": "Ankit Sehrawat",
+    "image": "https://drive.google.com/uc?id=1o7dNtaYQXNvXyt4CZeVeyg3ymG9ZnRRm",
+    "position": "Management Trainee",
+    "org": "Reliance Industries Ltd",
+    "facebook": "",
+    "linkedin": "https://www.linkedin.com/in/ankitsehrawat/"
+  },
+  {
+    "name": "Dheeraj Kumar",
+    "image": "https://drive.google.com/uc?id=1PsKA-fUMwcDrNWcj4fgXXEGd_-bR5JU8",
+    "position": "MTS 3",
+    "org": "Nutanix",
+    "facebook": "",
+    "linkedin": "https://www.linkedin.com/in/dheeraj-kumar-b0481b119/"
+  },
+  {
+    "name": "Roopkishor Singh",
+    "image": "https://drive.google.com/uc?id=1gaqRjA2dH1yoGVEAg7n4YpPdjENjhEa7",
+    "position": "Data Science Associate",
+    "org": "Goldman Sachs",
+    "facebook": "",
+    "linkedin": "https://www.linkedin.com/in/roopkishor-singh-2a2315118/"
+  }
+]

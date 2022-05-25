@@ -5,12 +5,20 @@ import wheel from '../../assets/icons/wheel.svg';
 import gear from '../../assets/icons/gear.svg';
 import atv from '../../assets/atv.png';
 import { Link } from "react-router-dom";
-import logitech from '../../assets/icons/logitech.svg';
-import google from '../../assets/icons/google.svg';
 import { Carousel } from '3d-react-carousal';
 import news1 from '../../assets/news1.png';
 import news2 from '../../assets/news2.png';
 import news3 from '../../assets/news3.png';
+import iitr from '../../assets/sponsor/iitr.png';
+import guvi from '../../assets/sponsor/guvi.png';
+import elite from '../../assets/sponsor/elite.png';
+import skill from '../../assets/sponsor/skill.png';
+import mavox from '../../assets/sponsor/mavox.png';
+import mak from '../../assets/sponsor/mak.png';
+import tata from '../../assets/sponsor/tata.png';
+import flowgain from '../../assets/sponsor/flowgain.png';
+import paras from '../../assets/sponsor/paras.png';
+import bpcl from '../../assets/sponsor/bpcl.png';
 
 const Home = () => {
     let slides = [
@@ -90,10 +98,40 @@ const Home = () => {
             </div>
             <div className="partner">
                 <h2>PARTNERS</h2>
-                <div className="partLogo">
-                    <img src={logitech} />
-                    <img src={google} />
-                </div>
+                <marquee>
+                    <div className="partLogo">
+                        <div>
+                            <p className="logoTitle">POWERED BY</p>
+                            <img src={iitr} style={{height: '7rem'}}/>
+                        </div>
+                        <div>
+                            <p className="logoTitle">Gold Sponsor</p>
+                            <img src={guvi} style={{height: '7rem'}}/>
+                        </div>
+                        <div>
+                            <p className="logoTitle">Knowledge Partner</p>
+                            <img src={elite} style={{height: '7rem'}}/>
+                        </div>
+                        <div>
+                            <p className="logoTitle">Educational Partner</p>
+                            <img src={skill} style={{height: '7rem'}}/>
+                        </div>
+                        <div>
+                            <p className="logoTitle">Safety Partner</p>
+                            <img src={mavox} style={{height: '7rem'}}/>
+                        </div>
+                        <div>
+                            <p className="logoTitle">Associate Sponsors</p>
+                            <div style={{display: 'flex', gap: '3rem'}}>
+                                <img src={mak} style={{height: '7rem'}}/>
+                                <img src={tata} style={{height: '7rem'}}/>
+                                <img src={flowgain} style={{height: '7rem'}}/>
+                                <img src={paras} style={{height: '7rem'}}/>
+                                <img src={bpcl} style={{height: '7rem'}}/>
+                            </div>
+                        </div>
+                    </div>
+                </marquee>
             </div>
             <div className="news">
                 <h2>KNOx in <span style={{color: '#FF7C00', fontWeight: 700}}>News</span></h2>
