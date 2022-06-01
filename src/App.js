@@ -7,6 +7,7 @@ import ScrollToTop from './components/ScrollToTop';
 import About from './components/about';
 import Sponsor from './components/sponsor';
 import ATV from './components/atv';
+import Gallery from './components/gallery';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path='/about' element={<About />} />
           <Route path='/sponsors' element={<Sponsor />} />
           <Route path='/atv' element={<ATV />} />
+          <Route path='/gallery' element={<Gallery />} />
         </Routes>
         <Footer />
       </BrowserRouter>

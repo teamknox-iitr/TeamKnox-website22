@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
 import './sponsor.css';
+import iitrLogo from '../../assets/sponsor/iitr.png';
 import guvi from '../../assets/sponsor/guvi.png';
 import elite from '../../assets/sponsor/elite.png';
 import skill from '../../assets/sponsor/skill.png';
@@ -9,13 +10,30 @@ import tata from '../../assets/sponsor/tata.png';
 import flowgain from '../../assets/sponsor/flowgain.png';
 import bpcl from '../../assets/sponsor/bpcl.png';
 import paras from '../../assets/sponsor/paras.png';
+import headRect from '../../assets/icons/headRect.svg';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const Sponsor = () => {
+    useEffect(() => {
+        Aos.init({duration: 2000})
+    }, [])
     return (
         <div className="sponsor">
             <div className="sponsorTitle">
-                <h2>OUR <span style={{color: '#FF7C00'}}>Sponsors</span></h2>
+                <div data-aos="slide-right" data-aos-once="true">
+                    <img src={headRect}  className='rectAnimation' style={{transform: 'translate(-105%, -20%)'}}/>
+                </div>
+                <h2 style={{zIndex: 5, position: 'absolute', left: 0, right: 0, marginLeft: 'auto', marginRight: 'auto'}}>OUR &nbsp;&nbsp;<span style={{color: '#FF7C00'}}>Sponsors</span></h2>
             </div>
+            <br/><br/>
+            <div className="goldSponsor">
+                <h2 style={{fontWeight: 400, color: '#FFFFFF'}}><span style={{fontWeight: 700}}>Powered By</span></h2>
+                <a href="https://www.iitr.ac.in/" target="_blank">
+                    <img src={iitrLogo} alt="iitr" className="guviImg"/>
+                </a>
+            </div>
+            <br/><br/>
             <div className="goldSponsor">
                 <h2 style={{fontWeight: 400, color: '#FFBF00'}}><span style={{fontWeight: 700}}>GOLD</span> Sponsor</h2>
                 <a href="https://www.guvi.in/" target="_blank">

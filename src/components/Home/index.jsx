@@ -19,12 +19,15 @@ import tata from '../../assets/sponsor/tata.png';
 import flowgain from '../../assets/sponsor/flowgain.png';
 import paras from '../../assets/sponsor/paras.png';
 import bpcl from '../../assets/sponsor/bpcl.png';
+import tyreRight from '../../assets/TyreRight.png';
+import tyreLeft from '../../assets/TyreLeft.png';
 
 const Home = () => {
     let slides = [
         <img  src={news1} alt="1" />,
         <img  src={news2} alt="2" />,
-        <img  src={news3} alt="3" />
+        <img  src={news3} alt="3" />,
+        <img  src="https://picsum.photos/id/1015/1000/600/" alt="4" />
     ]
 
     return (
@@ -50,7 +53,9 @@ const Home = () => {
                     <Link to="/about" className="learnMore">Learn More</Link>
                 </div>
                 <div className="right_know">
-                    <img src={ gear } className="gearImg" />
+                    <div className="gearImg">
+                        <img src={ gear } className='gearSpin1'/>
+                    </div>
                     <img src={ know } className="knowImg" />
                 </div>
             </div>
@@ -63,7 +68,7 @@ const Home = () => {
                     </div>
                     <div className="statInfo">
                         <p>An experience of</p>
-                        <h2>10</h2>
+                        <h2>12</h2>
                         <p>years in building awesome ATVs</p>
                     </div>
                     <div className="statInfo">
@@ -72,17 +77,66 @@ const Home = () => {
                         <p>people who have watched us grow</p>
                     </div>
                 </div>
-                <div className="statCard">
-                    <div className="statInfo">
-                        <p>Rank</p>
-                        <h2 style={{fontSize: '6rem'}}>6</h2>
+            </div>
+            <div className="rollingStats">
+                <img src={tyreLeft} className="tyreLeft"/>
+                <div className="bajaStats">
+                    <div className="statContainer">
+                        <div className="statCard">
+                            <div className="statInfo">
+                                <p>Rank</p>
+                                <h2 style={{fontSize: '6rem'}}>6</h2>
+                            </div>
+                            <div className="statDesc">
+                                <p>DYNAMIC EVENT</p>
+                                <h2><span style={{color: '#FFF', fontWeight: 700}}>ACCLERATION</span> event</h2>
+                            </div>
+                            <p className="statCardTitle">BAJA SAE 2022</p>
+                        </div>
                     </div>
-                    <div className="statDesc">
-                        <p>DYNAMIC EVENT</p>
-                        <h2><span style={{color: '#FFF', fontWeight: 700}}>ACCLERATION</span> event</h2>
+                    <div className="statContainer">
+                        <div className="statCard">
+                            <div className="statInfo">
+                                <p>Rank</p>
+                                <h2 style={{fontSize: '6rem'}}>6</h2>
+                            </div>
+                            <div className="statDesc">
+                                <p>DYNAMIC EVENT</p>
+                                <h2><span style={{color: '#FFF', fontWeight: 700}}>VALIDATION</span> event</h2>
+                            </div>
+                            <p className="statCardTitle">BAJA SAE 2022</p>
+                        </div>
                     </div>
-                    <p className="statCardTitle">BAJA SAE 2022</p>
+                    <div className="statContainer">
+                        <div className="statCard">
+                            <div className="statInfo">
+                                <p>Rank</p>
+                                <h2 style={{fontSize: '6rem'}}>6</h2>
+                            </div>
+                            <div className="statDesc">
+                                <p>STATIC EVENT</p>
+                                <h2><span style={{color: '#FFF', fontWeight: 700}}>MANUFACTURING</span></h2>
+                                <h2><span style={{color: '#FFF', fontWeight: 700}}>EVALUATION</span> event</h2>
+                            </div>
+                            <p className="statCardTitle">BAJA SAE 2022</p>
+                        </div>
+                    </div>
+                    <div className="statContainer">
+                        <div className="statCard">
+                            <div className="statInfo">
+                                <p>Rank</p>
+                                <h2 style={{fontSize: '6rem'}}>7</h2>
+                            </div>
+                            <div className="statDesc">
+                                <p>STATIC EVENT</p>
+                                <h2><span style={{color: '#FFF', fontWeight: 700}}>COST EVALUATION</span></h2>
+                                <h2>event</h2>
+                            </div>
+                            <p className="statCardTitle">BAJA SAE 2022</p>
+                        </div>
+                    </div>
                 </div>
+                <img src={tyreRight} className="tyreRight"/>
             </div>
             <div className="atv">
                 <div className="left_atv">

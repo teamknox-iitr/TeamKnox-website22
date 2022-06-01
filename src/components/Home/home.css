@@ -14,7 +14,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-115%, -20%);
+    transform: translate(-115%, -32%);
     text-align: center;
 }
 
@@ -126,6 +126,7 @@ h5 {
     top: 120vh;
     right: 2vw;
     z-index: 0;
+    overflow: hidden;
 }
 
 .atvImg {
@@ -172,7 +173,7 @@ h5 {
 
 .stats {
     background-color: #0D0D0D;
-    padding: 0 8rem 8rem 8rem;
+    padding: 0 8rem;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -184,6 +185,10 @@ h5 {
     align-items: center;
     justify-content: center;
     gap: 6rem;
+}
+
+.statInfo {
+    text-align: center;
 }
 
 .statInfo > p {
@@ -206,16 +211,58 @@ h5 {
     color: #FF7C00;
 }
 
+.rollingStats {
+    background-color: #0D0D0D;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tyreLeft {
+    width: 30vw;
+}
+
+.tyreRight {
+    width: 30vw;
+}
+
+.bajaStats {
+    background-color: #0D0D0D;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width: 40vw;
+    height: 20rem;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.bajaStats::-webkit-scrollbar {
+    display: none;
+}
+
+.statContainer {
+    width: 40vw;
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scroll-snap-align: start;
+}
+
 .statCard {
     background: rgba(255, 255, 255, 0.02);
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 12px;
-    margin-top: 4rem;
     display: flex;
     align-items: center;
-    padding: 3rem 2rem;
-    gap: 6rem;
-    max-width: fit-content;
+    padding: 2rem 2.5rem;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .statDesc > p {

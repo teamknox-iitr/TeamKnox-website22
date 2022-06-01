@@ -105,7 +105,7 @@ const About = () => {
         setData(designData);
     };
 
-    const [alumYear, setAlumYear] = useState(2011);
+    const [alumYear, setAlumYear] = useState(2022);
     const [alumData, setAlumData] = useState([]);
 
     async function getAlumData(alumYear) {
@@ -120,7 +120,7 @@ const About = () => {
     }
 
     useEffect(() => {
-        getAlumData(2011);
+        getAlumData(2022);
     }, []);
     
     return (

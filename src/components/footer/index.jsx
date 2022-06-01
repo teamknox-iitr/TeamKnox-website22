@@ -23,14 +23,25 @@ function Footer() {
                     </div>
                     <div className="detailsCol">
                         <h4>Email</h4>
-                        <p>knoxracers@gmail.com</p>
                         <p>teamknox@iitr.ac.in</p>
                     </div>
                 </div>
                 <div className="socialLinks">
-                    <p><img src={ Facebook } /> Facebook</p>
-                    <p><img src={ Youtube } /> LinkedIn</p>
-                    <p><img src={ Instagram } /> Instagram</p>
+                    <p style={{cursor: 'pointer'}} onClick={() => {
+                        window.open('https://www.facebook.com/teamknox.iitr', '_blank');
+                    }}>
+                        <img src={ Facebook } /> Facebook
+                    </p>
+                    <p style={{cursor: 'pointer'}} onClick={() => {
+                        window.open('https://www.linkedin.com/company/team-knox-iitr/', '_blank');
+                    }}>
+                        <img src={ Youtube } /> LinkedIn
+                    </p>
+                    <p style={{cursor: 'pointer'}} onClick={() => {
+                        window.open('https://www.instagram.com/teamknox.iitr/', '_blank');
+                    }}>
+                        <img src={ Instagram } /> Instagram
+                    </p>
                 </div>
             </div>
         </div>

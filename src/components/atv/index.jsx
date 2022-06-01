@@ -1,17 +1,82 @@
 import './atv.css';
-import React from 'react';
+import React, { useEffect } from 'react';
 import AtvCard from '../atvCard';
 import atvData from './atvData.json';
+import dropDown from '../../assets/icons/dropDown.svg';
+import BAJA2022 from '../../assets/BAJA2022.png';
+import BAJAgear1 from '../../assets/icons/BAJAgear1.svg';
+import BAJAgear2 from '../../assets/icons/BAJAgear2.svg';
+import headRect from '../../assets/icons/headRect.svg';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 function ATV () {
+    useEffect(() => {
+        Aos.init({duration: 2000})
+    }, [])
     return (
         <div>
             <div className="atvHero">
-                helo
+                <div className="atv_hero_content">
+                    <h2><span className="atvTHE">The</span> KNIGHT</h2>
+                    <div style={{paddingRight: '1rem', textAlign: 'right'}}>
+                        <h5>...in shining armor</h5>
+                    </div>
+                    <br/>
+                    <br/>
+                    <a href='#BAJA2022Results'>
+                        <img src={dropDown} />
+                    </a>
+                </div>
+            </div>
+            <div className='BAJA2022Res' id='BAJA2022Results'>
+                <div className='BAJA2022Left_content'>
+                    <h2>BAJA SAE 2022</h2>
+                    <h2 style={{color: '#FF7C00'}}>Achievements</h2>
+                    <br/>
+                    <div style={{display: 'flex', gap: '2rem'}}>
+                        <div className='eventRes2022'>
+                            <p>Accleration</p>
+                            <p>Validation</p>
+                            <p>Manufacturing</p>
+                            <p>Cost</p>
+                            <p>Go Green</p>
+                            <p>CAE</p>
+                            <br/>
+                            <p style={{color: '#FF7C00', fontWeight: 700}}>OVERALL</p>
+                        </div>
+                        <div className='eventRes2022'>
+                            <p>6th</p>
+                            <p>6th</p>
+                            <p>6th</p>
+                            <p>7th</p>
+                            <p>15th</p>
+                            <p>18th</p>
+                            <br/>
+                            <p style={{color: '#FF7C00', fontWeight: 700}}>18th</p>
+                        </div>
+                    </div>
+                </div>
+                <div className='BAJAgear1'>
+                    <img src={BAJAgear1} className='gearSpin1'/>
+                </div>
+                <div className='BAJAgear2'>
+                    <img src={BAJAgear2} className='gearSpin2'/>
+                </div>
+                <div className='BAJA2022Right_content'>
+                    <img src={BAJA2022} />
+                </div>
             </div>
             <div className='sponsor'>
+                <br/>
+                <br/>
+                <br/>
                 <div className="sponsorTitle">
-                    <h2>OUR ATVs &nbsp;<span style={{color: '#FF7C00'}}>JOURNEY</span></h2>
+                    <div data-aos="slide-right" data-aos-once="true">
+                        <img src={headRect}  className='rectAnimation'/>
+                    </div>
+                    <h2 style={{zIndex: 5, position: 'absolute', left: 0, right: 0, marginLeft: 'auto', marginRight: 'auto'}}>OUR ATVs &nbsp;<span style={{color: '#FF7C00'}}>JOURNEY</span></h2>
+                    <br/><br/>
                     <br/><br/>
                     <div className='allAtvs'>
                         {
