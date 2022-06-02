@@ -1,14 +1,9 @@
 import React, { useEffect } from "react";
 import './home.css';
-import know from '../../assets/know.png';
 import wheel from '../../assets/icons/wheel.svg';
 import gear from '../../assets/icons/gear.svg';
-import atv from '../../assets/atv.png';
 import { Link } from "react-router-dom";
 import { Carousel } from '3d-react-carousal';
-import news1 from '../../assets/news1.png';
-import news2 from '../../assets/news2.png';
-import news3 from '../../assets/news3.png';
 import iitr from '../../assets/sponsor/iitr.png';
 import guvi from '../../assets/sponsor/guvi.png';
 import elite from '../../assets/sponsor/elite.png';
@@ -31,10 +26,12 @@ const Home = () => {
     }, [])
 
     let slides = [
-        <img  src={news1} alt="1" />,
-        <img  src={news2} alt="2" />,
-        <img  src={news3} alt="3" />,
-        <img  src="https://picsum.photos/id/1015/1000/600/" alt="4" />
+        <img  src='https://ik.imagekit.io/difw0fvlzb/news/Media_8_rRlz8uqMb.png?ik-sdk-version=javascript-1.4.3&updatedAt=1654198619259' alt="1" height={400} />,
+        <img  src='https://ik.imagekit.io/difw0fvlzb/news/Media_7_CvAqce5dR.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1654198618951' alt="2" height={400}/>,
+        <img  src='https://ik.imagekit.io/difw0fvlzb/news/Earlier_Media_5_EOiVvF0Ed.png?ik-sdk-version=javascript-1.4.3&updatedAt=1654198618790' alt="3" height={400}/>,
+        <img  src='https://ik.imagekit.io/difw0fvlzb/news/Earlier_Media_1_JrSImAfd6.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1654198617455' alt="4" height={400}/>,
+        <img  src='https://ik.imagekit.io/difw0fvlzb/news/Earlier_Media_3_KIoX1UitC.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1654198617931' alt="5" height={400}/>,
+        <img  src='https://ik.imagekit.io/difw0fvlzb/news/Earlier_Media_2_LeTW3Mkzs.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1654198617567' alt="6" height={400}/>,
     ]
 
     return (
@@ -63,7 +60,7 @@ const Home = () => {
                     <div className="gearImg">
                         <img src={ gear } className='gearSpin1'/>
                     </div>
-                    <img src={ know } className="knowImg" data-aos="fade-up"/>
+                    <img src='https://ik.imagekit.io/difw0fvlzb/know_1SgD5BTUM.png?ik-sdk-version=javascript-1.4.3&updatedAt=1654197753443' className="knowImg" data-aos="fade-up"/>
                 </div>
             </div>
             <div className="stats">
@@ -147,7 +144,7 @@ const Home = () => {
             </div>
             <div className="atv">
                 <div className="left_atv" data-aos="fade-up">
-                    <img src={atv} className="atvImg"/>
+                    <img src='https://ik.imagekit.io/difw0fvlzb/atv_uVP98nxe-.png?ik-sdk-version=javascript-1.4.3&updatedAt=1654197745829' className="atvImg"/>
                 </div>
                 <div className="right_atv" data-aos="fade-up">
                     <h2>Our <span style={{color: '#FF7C00', fontWeight: 700}}>ATVs</span></h2>

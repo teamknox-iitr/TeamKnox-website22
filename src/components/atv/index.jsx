@@ -3,7 +3,6 @@ import React, { useEffect } from 'react';
 import AtvCard from '../atvCard';
 import atvData from './atvData.json';
 import dropDown from '../../assets/icons/dropDown.svg';
-import BAJA2022 from '../../assets/BAJA2022.png';
 import BAJAgear1 from '../../assets/icons/BAJAgear1.svg';
 import BAJAgear2 from '../../assets/icons/BAJAgear2.svg';
 import headRect from '../../assets/icons/headRect.svg';
@@ -64,7 +63,7 @@ function ATV () {
                     <img src={BAJAgear2} className='gearSpin2'/>
                 </div>
                 <div className='BAJA2022Right_content' data-aos="slide-left">
-                    <img src={BAJA2022} />
+                    <img src='https://ik.imagekit.io/difw0fvlzb/BAJA2022_UizyQFqyB.png?ik-sdk-version=javascript-1.4.3&updatedAt=1654199584281' />
                 </div>
             </div>
             <div className='sponsor'>

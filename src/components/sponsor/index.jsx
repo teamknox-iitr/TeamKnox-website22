@@ -76,8 +76,47 @@ const Sponsor = () => {
                 <a href="https://www.bharatpetroleum.in/" target="_blank">
                     <img src={bpcl} alt="bpcl" className="bpclImg"/>
                 </a>
-                <a style={{paddingTop: '4rem'}} href="https://www.paras.com/" target="_blank">
+                <a href="https://www.paras.com/" target="_blank">
                     <img src={paras} alt="paras" className="parasImg"/>
+                </a>
+            </div>
+            <br/><br/>
+            <div className="goldSponsor">
+                <h2 style={{fontWeight: 400, color: 'rgba(255, 251, 254, 0.8)'}}><span style={{fontWeight: 700, color: '#FFFFFF'}}>PREVIOUS</span> Sponsor</h2>
+            </div>
+            <div className="associateSponsor" data-aos="fade-up" data-aos-delay={1000}>
+                <a href="https://tiindia.com/" target="_blank">
+                    <img src='https://ik.imagekit.io/difw0fvlzb/sponsor/Tube_Investments_of_India_Ltd._OjdRmQ9ojP.png?ik-sdk-version=javascript-1.4.3&updatedAt=1654210677816' alt="mak" className="makImg"/>
+                </a>
+                <a href="https://www.utconline.uk.gov.in/" target="_blank">
+                    <img src='https://ik.imagekit.io/difw0fvlzb/sponsor/Uttarakhand_Pariwahan_F4K5xCMY3.png?ik-sdk-version=javascript-1.4.3&updatedAt=1654210678348' alt="tata" className="tataImg"/>
+                </a>
+                <a href="https://www.tatamotors.com/" target="_blank">
+                    <img src='https://ik.imagekit.io/difw0fvlzb/sponsor/TATA_Motors_tB3LmN2vp.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1654210677640' alt="flowgain" className="flowgainImg"/>
+                </a>
+                <a href="http://www.safexpress.com/" target="_blank">
+                    <img src='https://ik.imagekit.io/difw0fvlzb/sponsor/SafeExpress_916vbJ6vE.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1654210677324' alt="bpcl" className="bpclImg"/>
+                </a>
+                <a href="https://www.polaris.com/en-us/" target="_blank">
+                    <img src='https://ik.imagekit.io/difw0fvlzb/sponsor/Polaris_wroMrmXcR.png?ik-sdk-version=javascript-1.4.3&updatedAt=1654210676585' alt="paras" className="parasImg"/>
+                </a>
+                <a href="https://pyn.in/" target="_blank">
+                    <img src='https://ik.imagekit.io/difw0fvlzb/sponsor/PYN_Autocomp_gE0E5ZaDKR.png?ik-sdk-version=javascript-1.4.3&updatedAt=1654210677054' alt="paras" className="parasImg"/>
+                </a>
+                <a href="https://www.prowessengg.com/" target="_blank">
+                    <img src='https://ik.imagekit.io/difw0fvlzb/sponsor/Prowess_Lfa9zI5t8.png?ik-sdk-version=javascript-1.4.3&updatedAt=1654210676826' alt="paras" className="parasImg"/>
+                </a>
+                <a href="http://www.hindalco.com/" target="_blank">
+                    <img src='https://ik.imagekit.io/difw0fvlzb/sponsor/Hindalco_KF9A4JwQ9.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1654210675748' alt="paras" className="parasImg"/>
+                </a>
+                <a href="https://food-adda.in/" target="_blank">
+                    <img src='https://ik.imagekit.io/difw0fvlzb/sponsor/Foodadda_BMAeN6AuA.png?ik-sdk-version=javascript-1.4.3&updatedAt=1654210675908' alt="paras" className="parasImg"/>
+                </a>
+                <a href="https://www.parassteel.co.in/" target="_blank">
+                    <img src='https://ik.imagekit.io/difw0fvlzb/sponsor/Paras_Steel_HpcDU6FZf.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1654210676326' alt="paras" className="parasImg"/>
+                </a>
+                <a href="https://www.munjalshowa.net/" target="_blank">
+                    <img src='https://ik.imagekit.io/difw0fvlzb/sponsor/Munjal_Showa_l9HbvD6zF.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1654210676018' alt="paras" className="parasImg"/>
                 </a>
             </div>
         </div>

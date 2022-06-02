@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react";
 import './about.css';
-import aboutHeroImg from '../../assets/aboutHero.png';
-import aboutHeroImg2 from '../../assets/aboutHero2.png';
 import powertrain from '../../assets/icons/powertrain.svg';
 import rollcage from '../../assets/icons/rollcage.svg';
 import suspension from '../../assets/icons/suspension.svg';
@@ -131,7 +129,7 @@ const About = () => {
     return (
         <div>
             <div className="aboutHero">
-                <img src={aboutHeroImg} width='100%' />
+                <img src='https://ik.imagekit.io/difw0fvlzb/aboutHero_5Ed__nXTE.png?ik-sdk-version=javascript-1.4.3&updatedAt=1654197746567' width='100%' />
                 <div className="aboutDesc">
                     <p data-aos="fade-up">
                         Team KNOx IIT Roorkee is the official off-road racing team of IITR. The team designs and fabricates an off-road vehicle and participate in National level competition BAJA SAE India, the most prominent engineering level competition held in the country. Team KNOx provides a big platform to all the creative people who starve to work out of the box and are willing to sweat it out to achieve something. The team is open to all students of all disciplines with passion and dedication being the two main prerequisites. Mechanical design and marketing are the two main verticals under which the students work in the team.
@@ -140,7 +138,7 @@ const About = () => {
                 <div className="aboutTitle">
                     <h1 data-aos="fade-up">ABOUT Us</h1>
                 </div>
-                <img src={aboutHeroImg2} width='100%' />
+                <img src='https://ik.imagekit.io/difw0fvlzb/aboutHero2_N4NTLoPDn.png?ik-sdk-version=javascript-1.4.3&updatedAt=1654197753720' width='100%' />
             </div>
             <div className="team">
                 <h2>The <span style={{color: '#FF7C00'}}>Team</span></h2>
