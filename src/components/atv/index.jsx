@@ -18,19 +18,19 @@ function ATV () {
         <div>
             <div className="atvHero">
                 <div className="atv_hero_content">
-                    <h2><span className="atvTHE">The</span> KNIGHT</h2>
+                    <h2 data-aos="fade-up"><span className="atvTHE">The</span> KNIGHT</h2>
                     <div style={{paddingRight: '1rem', textAlign: 'right'}}>
-                        <h5>...in shining armor</h5>
+                        <h5 data-aos="fade-up">...in shining armor</h5>
                     </div>
                     <br/>
                     <br/>
                     <a href='#BAJA2022Results'>
-                        <img src={dropDown} />
+                        <img src={dropDown} data-aos="fade-up"/>
                     </a>
                 </div>
             </div>
-            <div className='BAJA2022Res' id='BAJA2022Results'>
-                <div className='BAJA2022Left_content'>
+            <div className='BAJA2022Res' id='BAJA2022Results' style={{overflow: 'hidden'}}>
+                <div className='BAJA2022Left_content' data-aos="fade-up">
                     <h2>BAJA SAE 2022</h2>
                     <h2 style={{color: '#FF7C00'}}>Achievements</h2>
                     <br/>
@@ -63,7 +63,7 @@ function ATV () {
                 <div className='BAJAgear2'>
                     <img src={BAJAgear2} className='gearSpin2'/>
                 </div>
-                <div className='BAJA2022Right_content'>
+                <div className='BAJA2022Right_content' data-aos="slide-left">
                     <img src={BAJA2022} />
                 </div>
             </div>
@@ -82,7 +82,7 @@ function ATV () {
                         {
                             atvData.map((index) => {
                                 return (
-                                    <AtvCard image={index.image} name={index.name} year={index.year}/>
+                                    <AtvCard image={index.image} name={index.name} year={index.year} />
                                 )
                             })
                         }

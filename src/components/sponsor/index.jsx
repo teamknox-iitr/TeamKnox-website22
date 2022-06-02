@@ -27,33 +27,33 @@ const Sponsor = () => {
                 <h2 style={{zIndex: 5, position: 'absolute', left: 0, right: 0, marginLeft: 'auto', marginRight: 'auto'}}>OUR &nbsp;&nbsp;<span style={{color: '#FF7C00'}}>Sponsors</span></h2>
             </div>
             <br/><br/>
-            <div className="goldSponsor">
+            <div className="goldSponsor" data-aos="fade-up" data-aos-delay={1000}>
                 <h2 style={{fontWeight: 400, color: '#FFFFFF'}}><span style={{fontWeight: 700}}>Powered By</span></h2>
                 <a href="https://www.iitr.ac.in/" target="_blank">
                     <img src={iitrLogo} alt="iitr" className="guviImg"/>
                 </a>
             </div>
             <br/><br/>
-            <div className="goldSponsor">
+            <div className="goldSponsor" data-aos="fade-up" data-aos-delay={1000}>
                 <h2 style={{fontWeight: 400, color: '#FFBF00'}}><span style={{fontWeight: 700}}>GOLD</span> Sponsor</h2>
                 <a href="https://www.guvi.in/" target="_blank">
                     <img src={guvi} alt="guvi" className="guviImg"/>
                 </a>
             </div>
             <div className="otherSponsor">
-                <div className="goldSponsor">
+                <div className="goldSponsor" data-aos="fade-up" data-aos-delay={1000}>
                     <h2 style={{fontWeight: 400, color: 'rgba(255, 251, 254, 0.8)'}}><span style={{fontWeight: 700, color: '#FFFFFF'}}>KNOWLEDGE</span> Partner</h2>
                     <a href="https://www.elitetechnogroups.com/" target="_blank">
                         <img src={elite} alt="elite" className="eliteImg"/>
                     </a>
                 </div>
-                <div className="goldSponsor">
+                <div className="goldSponsor" data-aos="fade-up" data-aos-delay={1000}>
                     <h2 style={{fontWeight: 400, color: 'rgba(255, 251, 254, 0.8)'}}><span style={{fontWeight: 700, color: '#FFFFFF'}}>EDUCATIONAL</span> Partner</h2>
                     <a href="https://skill-lync.com/" target="_blank">
                         <img src={skill} alt="skill" className="skillImg"/>
                     </a>
                 </div>
-                <div className="goldSponsor" style={{paddingTop: '4rem'}}>
+                <div className="goldSponsor" style={{paddingTop: '4rem'}} data-aos="fade-up" data-aos-delay={1000}>
                     <h2 style={{fontWeight: 400, color: 'rgba(255, 251, 254, 0.8)'}}><span style={{fontWeight: 700, color: '#FFFFFF'}}>SAFETY</span> Partner</h2>
                     <a href="https://mavox.com/" target="_blank">
                         <img src={mavox} alt="mavox" className="mavoxImg"/>
@@ -63,7 +63,7 @@ const Sponsor = () => {
             <div className="goldSponsor">
                 <h2 style={{fontWeight: 400, color: 'rgba(255, 251, 254, 0.8)'}}><span style={{fontWeight: 700, color: '#FFFFFF'}}>ASSOCIATE</span> Sponsor</h2>
             </div>
-            <div className="associateSponsor">
+            <div className="associateSponsor" data-aos="fade-up" data-aos-delay={1000}>
                 <a href="https://www.bharatpetroleum.in/our-businesses/mak-lubricants/about-mak-lubricants.aspx" target="_blank">
                     <img src={mak} alt="mak" className="makImg"/>
                 </a>

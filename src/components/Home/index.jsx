@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import './home.css';
 import know from '../../assets/know.png';
 import wheel from '../../assets/icons/wheel.svg';
@@ -21,8 +21,15 @@ import paras from '../../assets/sponsor/paras.png';
 import bpcl from '../../assets/sponsor/bpcl.png';
 import tyreRight from '../../assets/TyreRight.png';
 import tyreLeft from '../../assets/TyreLeft.png';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const Home = () => {
+
+    useEffect(() => {
+        Aos.init();
+    }, [])
+
     let slides = [
         <img  src={news1} alt="1" />,
         <img  src={news2} alt="2" />,
@@ -34,17 +41,17 @@ const Home = () => {
         <div>
             <div className="hero">
                 <div className="hero_content">
-                    <h4>OFFICIAL OFF-ROAD RACING TEAM OF IIT ROORKEE</h4>
-                    <h2>Passion is not by choice</h2>
-                    <h2><span className="road">Road&nbsp;</span> is not an option</h2>
+                    <h4 data-aos="fade-up">OFFICIAL OFF-ROAD RACING TEAM OF IIT ROORKEE</h4>
+                    <h2 data-aos="fade-up">Passion is not by choice</h2>
+                    <h2 data-aos="fade-up"><span className="road">Road&nbsp;</span> is not an option</h2>
                     <div style={{paddingTop: '1rem'}}>
-                        <h5><span style={{color: '#FF7C00', fontWeight: 700}}>Team KNOx</span> is who we are</h5>
-                        <h5>Off the road we go</h5>
+                        <h5 data-aos="fade-up"><span style={{color: '#FF7C00', fontWeight: 700}}>Team KNOx</span> is who we are</h5>
+                        <h5 data-aos="fade-up">Off the road we go</h5>
                     </div>
                 </div>
             </div>
             <div className="know">
-                <div className="left_know">
+                <div className="left_know" data-aos="fade-up"  >
                     <img src={wheel} className="wheelImg"/>
                     <h2><span style={{color: '#FF7C00', fontWeight: 700}}>Know</span> Team KNOx</h2>
                     <p>
@@ -56,11 +63,11 @@ const Home = () => {
                     <div className="gearImg">
                         <img src={ gear } className='gearSpin1'/>
                     </div>
-                    <img src={ know } className="knowImg" />
+                    <img src={ know } className="knowImg" data-aos="fade-up"/>
                 </div>
             </div>
             <div className="stats">
-                <div className="statLine1">
+                <div className="statLine1" data-aos="fade-up"  >
                     <div className="statInfo">
                         <p>Rank</p>
                         <h2>1</h2>
@@ -79,7 +86,7 @@ const Home = () => {
                 </div>
             </div>
             <div className="rollingStats">
-                <img src={tyreLeft} className="tyreLeft"/>
+                <img src={tyreLeft} className="tyreLeft" />
                 <div className="bajaStats">
                     <div className="statContainer">
                         <div className="statCard">
@@ -139,10 +146,10 @@ const Home = () => {
                 <img src={tyreRight} className="tyreRight"/>
             </div>
             <div className="atv">
-                <div className="left_atv">
+                <div className="left_atv" data-aos="fade-up">
                     <img src={atv} className="atvImg"/>
                 </div>
-                <div className="right_atv">
+                <div className="right_atv" data-aos="fade-up">
                     <h2>Our <span style={{color: '#FF7C00', fontWeight: 700}}>ATVs</span></h2>
                     <p>
                         Our journey so far has been phenomenal. We’ve built more than ten ATVs over the years and each new addition to the contigent is better than ever.
