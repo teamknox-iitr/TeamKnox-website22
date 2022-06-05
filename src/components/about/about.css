@@ -41,6 +41,10 @@
     background: #0D0D0D;
     padding: 4rem 8rem;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .team > h2 {
@@ -105,8 +109,8 @@
     padding-top: 4rem;
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 5rem;
+    align-items: baseline;
+    gap: 6rem;
     flex-wrap: wrap;
 }
 

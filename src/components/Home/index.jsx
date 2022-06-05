@@ -65,20 +65,25 @@ const Home = () => {
             </div>
             <div className="stats">
                 <div className="statLine1" data-aos="fade-up"  >
-                    <div className="statInfo">
+                    <div className="statInfo" style={{maxWidth:'18rem'}}>
                         <p>Rank</p>
                         <h2>1</h2>
                         <p>among all IITs</p>
                     </div>
-                    <div className="statInfo">
+                    <div className="statInfo" style={{maxWidth:'18rem'}}>
                         <p>An experience of</p>
                         <h2>12</h2>
                         <p>years in building awesome ATVs</p>
                     </div>
-                    <div className="statInfo">
+                    <div className="statInfo" style={{maxWidth:'18rem'}}>
                         <p>A family of</p>
-                        <h2>2.9k+</h2>
+                        <h2>12.5k+</h2>
                         <p>people who have watched us grow</p>
+                    </div>
+                    <div className="statInfo" style={{maxWidth:'18rem'}}>
+                        <p>Reached Top 10</p>
+                        <h2>7</h2>
+                        <p>times in last two years</p>
                     </div>
                 </div>
             </div>
@@ -197,7 +202,7 @@ const Home = () => {
                     Each and every one of us has that moment when we are suddenly stunned when we come face to face with the enormity of the universe.
                 </p>
                 <br/><br/><br/>
-                <Carousel slides={slides} arrows={false} autoplay={true}/>
+                <Carousel slides={slides} arrows={true} autoplay={false}/>
             </div>
         </div>
     )

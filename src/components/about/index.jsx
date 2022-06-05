@@ -136,7 +136,7 @@ const About = () => {
                     </p>
                 </div>
                 <div className="aboutTitle">
-                    <h1 data-aos="fade-up">ABOUT Us</h1>
+                    <h1 data-aos="fade-up">About Us</h1>
                 </div>
                 <img src='https://ik.imagekit.io/difw0fvlzb/aboutHero2_N4NTLoPDn.png?ik-sdk-version=javascript-1.4.3&updatedAt=1654197753720' width='100%' />
             </div>
@@ -228,7 +228,7 @@ const About = () => {
                         setAlumYear(Math.max(alumYear-1, 2011));
                         getAlumData(Math.max(alumYear-1, 2011));
                     }}/>
-                    <p className="yearChange">{alumYear-1} - {alumYear}</p>
+                    <p className="yearChange">{alumYear}</p>
                     <img src={next} style={{cursor: "pointer"}} onClick={() => {
                         setAlumYear(Math.min(alumYear+1, 2022));
                         getAlumData(Math.min(alumYear+1, 2022));

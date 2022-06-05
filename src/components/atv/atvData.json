@@ -1,47 +1,47 @@
 [
     {
         "name": "TITAN",
-        "year": "2020-2021",
+        "year": "2021",
         "image": "https://ik.imagekit.io/difw0fvlzb/ATV/2021_TITAN_Qe-UHuJuC.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1654199179604"
     },
     {
         "name": "NIITRO",
-        "year": "2019-2020",
+        "year": "2020",
         "image": "https://ik.imagekit.io/difw0fvlzb/ATV/2020_NIITRO_0IRhRnVym.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1654199179543"
     },
     {
         "name": "MK-1",
-        "year": "2018-2019",
+        "year": "2019",
         "image": "https://ik.imagekit.io/difw0fvlzb/ATV/2018_MK-1_nbhPsSged.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1654199180561"
     },
     {
         "name": "Sultan",
-        "year": "2016-2017",
+        "year": "2017",
         "image": "https://ik.imagekit.io/difw0fvlzb/ATV/2016_Sultan_EXOfH3cUW.png?ik-sdk-version=javascript-1.4.3&updatedAt=1654199180531"
     },
     {
         "name": "Bruizer",
-        "year": "2014-2015",
+        "year": "2015",
         "image": "https://ik.imagekit.io/difw0fvlzb/ATV/2014_Bruizer_15qNft-8E.png?ik-sdk-version=javascript-1.4.3&updatedAt=1654199180558"
     },
     {
         "name": "Thunderstream",
-        "year": "2013-2014",
+        "year": "2014",
         "image": "https://ik.imagekit.io/difw0fvlzb/ATV/2013_Thunder_obxTUKuv6.png?ik-sdk-version=javascript-1.4.3&updatedAt=1654199181806"
     },
     {
         "name": "Black Pearl",
-        "year": "2012-2013",
+        "year": "2013",
         "image": "https://ik.imagekit.io/difw0fvlzb/ATV/2012_Black_Pearl_8iQvrdPFn.png?ik-sdk-version=javascript-1.4.3&updatedAt=1654199181399"
     },
     {
         "name": "Blaze",
-        "year": "2011-2012",
+        "year": "2012",
         "image": "https://ik.imagekit.io/difw0fvlzb/ATV/2011_Blaze_23qkujQpl.png?ik-sdk-version=javascript-1.4.3&updatedAt=1654199181148"
     },
     {
         "name": "KNOx",
-        "year": "2010-2011",
+        "year": "2011",
         "image": "https://ik.imagekit.io/difw0fvlzb/ATV/2010_KNOx_qAwrMhTfnm.png?ik-sdk-version=javascript-1.4.3&updatedAt=1654199180916"
     }
 ]

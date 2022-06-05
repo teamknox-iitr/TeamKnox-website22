@@ -3,7 +3,7 @@ import linkedin from '../../assets/icons/linkedin.svg';
 
 const AlumCard = ({name, position, org, image, link1, link2}) => {
     return (
-        <div className='teamcard'>
+        <div className='teamcard' style={{width: '12rem'}}>
             <div>
                 <img src={image} alt="team" className='memImg'/>
             </div>

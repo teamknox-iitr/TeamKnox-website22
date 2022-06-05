@@ -50,8 +50,9 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-evenly;
-    padding: 8rem 12rem 8rem 12rem;
+    justify-content: center;
+    gap: 6rem;
+    padding: 8rem 12rem;
 }
 
 .associateSponsor {

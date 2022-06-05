@@ -53,7 +53,7 @@ const Sponsor = () => {
                         <img src={skill} alt="skill" className="skillImg"/>
                     </a>
                 </div>
-                <div className="goldSponsor" style={{paddingTop: '4rem'}} data-aos="fade-up" data-aos-delay={1000}>
+                <div className="goldSponsor" data-aos="fade-up" data-aos-delay={1000}>
                     <h2 style={{fontWeight: 400, color: 'rgba(255, 251, 254, 0.8)'}}><span style={{fontWeight: 700, color: '#FFFFFF'}}>SAFETY</span> Partner</h2>
                     <a href="https://mavox.com/" target="_blank">
                         <img src={mavox} alt="mavox" className="mavoxImg"/>
