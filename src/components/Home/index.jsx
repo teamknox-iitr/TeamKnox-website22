@@ -18,6 +18,8 @@ import tyreRight from '../../assets/TyreRight.png';
 import tyreLeft from '../../assets/TyreLeft.png';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import NewCarousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 
 const Home = () => {
 
@@ -32,7 +34,27 @@ const Home = () => {
         <img  src='https://ik.imagekit.io/difw0fvlzb/news/Earlier_Media_1_JrSImAfd6.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1654198617455' alt="4" height={400}/>,
         <img  src='https://ik.imagekit.io/difw0fvlzb/news/Earlier_Media_3_KIoX1UitC.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1654198617931' alt="5" height={400}/>,
         <img  src='https://ik.imagekit.io/difw0fvlzb/news/Earlier_Media_2_LeTW3Mkzs.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1654198617567' alt="6" height={400}/>,
-    ]
+    ];
+
+    const responsive = {
+        superLargeDesktop: {
+          // the naming can be any, depends on you.
+          breakpoint: { max: 4000, min: 3000 },
+          items: 1
+        },
+        desktop: {
+          breakpoint: { max: 3000, min: 1024 },
+          items: 1
+        },
+        tablet: {
+          breakpoint: { max: 1024, min: 464 },
+          items: 1
+        },
+        mobile: {
+          breakpoint: { max: 464, min: 0 },
+          items: 1
+        }
+      };
 
     return (
         <div>
@@ -71,6 +93,11 @@ const Home = () => {
                         <p>among all IITs</p>
                     </div>
                     <div className="statInfo" style={{maxWidth:'18rem'}}>
+                        <p>A Top 10 Finish</p>
+                        <h2>7</h2>
+                        <p>times since 2021</p>
+                    </div>
+                    <div className="statInfo" style={{maxWidth:'18rem'}}>
                         <p>An experience of</p>
                         <h2>12</h2>
                         <p>years in building awesome ATVs</p>
@@ -80,16 +107,11 @@ const Home = () => {
                         <h2>12.5k+</h2>
                         <p>people who have watched us grow</p>
                     </div>
-                    <div className="statInfo" style={{maxWidth:'18rem'}}>
-                        <p>Reached Top 10</p>
-                        <h2>7</h2>
-                        <p>times in last two years</p>
-                    </div>
                 </div>
             </div>
             <div className="rollingStats">
                 <img src={tyreLeft} className="tyreLeft" />
-                <div className="bajaStats">
+                <NewCarousel responsive={responsive} arrows={false} swipeable={false} autoPlay={true} infinite={true} containerClass="bajaStats">
                     <div className="statContainer">
                         <div className="statCard">
                             <div className="statInfo">
@@ -144,12 +166,12 @@ const Home = () => {
                             <p className="statCardTitle">BAJA SAE 2022</p>
                         </div>
                     </div>
-                </div>
+                </NewCarousel>
                 <img src={tyreRight} className="tyreRight"/>
             </div>
             <div className="atv">
                 <div className="left_atv" data-aos="fade-up">
-                    <img src='https://ik.imagekit.io/difw0fvlzb/atv_uVP98nxe-.png?ik-sdk-version=javascript-1.4.3&updatedAt=1654197745829' className="atvImg"/>
+                    <img style={{transform: 'scaleX(-1)'}} src='https://ik.imagekit.io/difw0fvlzb/atv_uVP98nxe-.png?ik-sdk-version=javascript-1.4.3&updatedAt=1654197745829' className="atvImg"/>
                 </div>
                 <div className="right_atv" data-aos="fade-up">
                     <h2>Our <span style={{color: '#FF7C00', fontWeight: 700}}>ATVs</span></h2>
