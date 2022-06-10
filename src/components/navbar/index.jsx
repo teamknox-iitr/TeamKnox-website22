@@ -56,7 +56,7 @@ const Navbar = () => {
                         </NavLink>
                     </li>
                     <li>
-                        <a href="#footer" className="inactive" onClick={handleClick}>
+                        <a href="/contact" className="inactive" onClick={handleClick}>
                             Contact Us
                         </a>
                     </li>

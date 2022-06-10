@@ -8,6 +8,7 @@ import About from './components/about';
 import Sponsor from './components/sponsor';
 import ATV from './components/atv';
 import Gallery from './components/gallery';
+import Contact from './components/contact';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path='/sponsors' element={<Sponsor />} />
           <Route path='/atv' element={<ATV />} />
           <Route path='/gallery' element={<Gallery />} />
+          <Route path='/contact' element={<Contact />} />
         </Routes>
         <Footer />
       </BrowserRouter>

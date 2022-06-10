@@ -8,7 +8,7 @@ import Youtube from '../../assets/icons/youtube.svg';
 function Footer() {
     return (
         <>
-        <div className="footer" id="footer">
+        <div className="footer">
             <img src={Logo} alt="logo" className="footerLogo"/>
             <div className="footerInfo">
                 <div className="details">

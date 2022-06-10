@@ -57,7 +57,7 @@ const Home = () => {
       };
 
     return (
-        <div>
+        <div style={{background: '#0D0D0D'}}>
             <div className="hero">
                 <div className="hero_content">
                     <h4 data-aos="fade-up">OFFICIAL OFF-ROAD RACING TEAM OF IIT ROORKEE</h4>

@@ -127,7 +127,7 @@ const About = () => {
     }, []);
     
     return (
-        <div>
+        <div style={{background: '#0D0D0D'}}>
             <div className="aboutHero">
                 <img src='https://ik.imagekit.io/difw0fvlzb/aboutHero_5Ed__nXTE.png?ik-sdk-version=javascript-1.4.3&updatedAt=1654197746567' width='100%' />
                 <div className="aboutDesc">

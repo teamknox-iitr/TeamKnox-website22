@@ -14,7 +14,7 @@ function ATV () {
         Aos.init({duration: 2000})
     }, [])
     return (
-        <div>
+        <div style={{background: '#0D0D0D'}}>
             <div className="atvHero">
                 <div className="atv_hero_content">
                     <h2 data-aos="fade-up"><span className="atvTHE">The</span> KNIGHT</h2>
