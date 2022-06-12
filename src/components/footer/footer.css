@@ -9,13 +9,12 @@
     width: 7rem;
 }
 
-.details {
-    display: flex;
-    gap: 2rem;
+.detailsCol {
+    width: 14rem;
 }
 
-.detailsCol {
-    flex: 1;
+.socialLinks {
+    width: 7rem;
 }
 
 .detailsCol > h4 {
@@ -50,8 +49,9 @@
 .footerInfo {
     display: flex;
     padding: 2rem 0;
-    justify-content: space-between;
-    align-items: center;
+    gap: 4rem;
+    align-items: baseline;
+    flex-wrap: wrap;
 }
 
 .copyright {
@@ -62,4 +62,19 @@
     color: rgba(255, 251, 254, 0.8);
     font-size: 0.75rem;
     padding: 1.5rem 9rem;
+}
+
+@media(max-width: 800px) {
+    .footer {
+        padding: 4rem 5rem 5rem 5rem;
+    }
+    .copyright {
+        padding: 1.5rem 5rem;
+    }
+}
+
+@media(max-width: 800px) {
+    .footerInfo {
+        gap: 2rem;
+    }
 }

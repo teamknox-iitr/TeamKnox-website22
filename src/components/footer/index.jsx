@@ -11,20 +11,18 @@ function Footer() {
         <div className="footer">
             <img src={Logo} alt="logo" className="footerLogo"/>
             <div className="footerInfo">
-                <div className="details">
-                    <div className="detailsCol">
-                        <h4>Address</h4>
-                        <p>Mechanical & Industrial Engineering Department IIT Roorkee 247667, Uttarakhand, India</p>
-                    </div>
-                    <div className="detailsCol">
-                        <h4>Contact</h4>
-                        <p>Aryan Prasad - +91-8910505041</p>
-                        <p>Vidit Garg - +91-7589002711</p>
-                    </div>
-                    <div className="detailsCol">
-                        <h4>Email</h4>
-                        <p>teamknox@iitr.ac.in</p>
-                    </div>
+                <div className="detailsCol">
+                    <h4>Address</h4>
+                    <p>Mechanical & Industrial Engineering Department IIT Roorkee 247667, Uttarakhand, India</p>
+                </div>
+                <div className="detailsCol">
+                    <h4>Contact</h4>
+                    <p>Aryan Prasad - +91-8910505041</p>
+                    <p>Vidit Garg - +91-7589002711</p>
+                </div>
+                <div className="detailsCol">
+                    <h4>Email</h4>
+                    <p>teamknox@iitr.ac.in</p>
                 </div>
                 <div className="socialLinks">
                     <p style={{cursor: 'pointer'}} onClick={() => {
