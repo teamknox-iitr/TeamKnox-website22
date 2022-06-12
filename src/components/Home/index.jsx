@@ -120,7 +120,7 @@ const Home = () => {
                             </div>
                             <div className="statDesc">
                                 <p>DYNAMIC EVENT</p>
-                                <h2><span style={{color: '#FFF', fontWeight: 700}}>ACCLERATION</span> event</h2>
+                                <h2><span style={{color: '#FFF', fontWeight: 700}}>ACCELERATION</span> event</h2>
                             </div>
                             <p className="statCardTitle">BAJA SAE 2022</p>
                         </div>
@@ -166,12 +166,106 @@ const Home = () => {
                             <p className="statCardTitle">BAJA SAE 2022</p>
                         </div>
                     </div>
+                    <div className="statContainer">
+                        <div className="statCard">
+                            <div className="statInfo">
+                                <p>Rank</p>
+                                <h2 style={{fontSize: '6rem'}}>7</h2>
+                            </div>
+                            <div className="statDesc">
+                                <p>STATIC EVENT</p>
+                                <h2><span style={{color: '#FFF', fontWeight: 700}}>SALES EVALUATION</span></h2>
+                                <h2>event</h2>
+                            </div>
+                            <p className="statCardTitle">BAJA SAE 2021</p>
+                        </div>
+                    </div>
+                    <div className="statContainer">
+                        <div className="statCard">
+                            <div className="statInfo">
+                                <p>Rank</p>
+                                <h2 style={{fontSize: '6rem'}}>10</h2>
+                            </div>
+                            <div className="statDesc">
+                                <p>STATIC EVENT</p>
+                                <h2><span style={{color: '#FFF', fontWeight: 700}}>CAE EVALUATION</span></h2>
+                                <h2>event</h2>
+                            </div>
+                            <p className="statCardTitle">BAJA SAE 2021</p>
+                        </div>
+                    </div>
+                    <div className="statContainer">
+                        <div className="statCard">
+                            <div className="statInfo">
+                                <p>Rank</p>
+                                <h2 style={{fontSize: '6rem'}}>10</h2>
+                            </div>
+                            <div className="statDesc">
+                                <p>STATIC EVENT</p>
+                                <h2><span style={{color: '#FFF', fontWeight: 700}}>MANUFACTURING</span></h2>
+                                <h2><span style={{color: '#FFF', fontWeight: 700}}>EVALUATION</span> event</h2>
+                            </div>
+                            <p className="statCardTitle">BAJA SAE 2021</p>
+                        </div>
+                    </div>
+                    <div className="statContainer">
+                        <div className="statCard">
+                            <div className="statInfo">
+                                <p>Rank</p>
+                                <h2 style={{fontSize: '6rem'}}>7</h2>
+                            </div>
+                            <div className="statDesc">
+                                <p>VIRTUAL EVENT</p>
+                                <h2><span style={{color: '#FFF', fontWeight: 700}}>DESIGN EVALUATION</span></h2>
+                                <h2>event</h2>
+                            </div>
+                            <p className="statCardTitle">BAJA SAE 2017</p>
+                        </div>
+                    </div>
+                    <div className="statContainer">
+                        <div className="statCard">
+                            <div className="statInfo">
+                                <p>Rank</p>
+                                <h2 style={{fontSize: '6rem'}}>2</h2>
+                            </div>
+                            <div className="statDesc">
+                                <p>STATIC EVENT</p>
+                                <h2><span style={{color: '#FFF', fontWeight: 700}}>CAE EVALUATION</span></h2>
+                                <h2>event</h2>
+                            </div>
+                            <p className="statCardTitle">BAJA SAE 2013</p>
+                        </div>
+                    </div>
+                    <div className="statContainer">
+                        <div className="statCard">
+                            <div className="statInfo">
+                                <p>Rank</p>
+                                <h2 style={{fontSize: '6rem'}}>13</h2>
+                            </div>
+                            <div className="statDesc">
+                                <h2><span style={{color: '#FFF', fontWeight: 700}}>OVERALL</span></h2>
+                            </div>
+                            <p className="statCardTitle">BAJA SAE 2012</p>
+                        </div>
+                    </div>
+                    <div className="statContainer">
+                        <div className="statCard">
+                            <div className="statInfo">
+                                <p>Rank</p>
+                                <h2 style={{fontSize: '6rem'}}>10</h2>
+                            </div>
+                            <div className="statDesc">
+                                <h2><span style={{color: '#FFF', fontWeight: 700}}>OVERALL</span></h2>
+                            </div>
+                            <p className="statCardTitle">BAJA SAE 2011</p>
+                        </div>
+                    </div>
                 </NewCarousel>
                 <img src={tyreRight} className="tyreRight"/>
             </div>
             <div className="atv">
                 <div className="left_atv" data-aos="fade-up">
-                    <img style={{transform: 'scaleX(-1)'}} src='https://ik.imagekit.io/difw0fvlzb/atv_uVP98nxe-.png?ik-sdk-version=javascript-1.4.3&updatedAt=1654197745829' className="atvImg"/>
+                    <img style={{transform: 'scaleX(-1)', objectPosition: '10% 50%'}} src='https://ik.imagekit.io/difw0fvlzb/atv_uVP98nxe-.png?ik-sdk-version=javascript-1.4.3&updatedAt=1654197745829' className="atvImg"/>
                 </div>
                 <div className="right_atv" data-aos="fade-up">
                     <h2>Our <span style={{color: '#FF7C00', fontWeight: 700}}>ATVs</span></h2>

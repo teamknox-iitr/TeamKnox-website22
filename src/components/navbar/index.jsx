@@ -56,9 +56,9 @@ const Navbar = () => {
                         </NavLink>
                     </li>
                     <li>
-                        <a href="/contact" className="inactive" onClick={handleClick}>
+                        <NavLink to="/contact" className={({isActive}) => (isActive ? 'active' : 'inactive')} onClick={handleClick}>
                             Contact Us
-                        </a>
+                        </NavLink>
                     </li>
                 </ul>
             </nav>
