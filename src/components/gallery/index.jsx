@@ -1,5 +1,6 @@
 import React from "react";
 import ImageGallery from 'react-image-gallery';
+import Footer from "../footer";
 import './gallery.css';
 
 const Gallery = () => {
@@ -171,9 +172,12 @@ const Gallery = () => {
         }
     ];
     return (
+      <>
         <div className="gallery">
             <ImageGallery items={images} />
         </div>
+        <Footer />
+      </>
     )
 }
 

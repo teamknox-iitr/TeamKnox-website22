@@ -23,6 +23,7 @@ import previous from '../../assets/icons/previous.svg';
 import next from '../../assets/icons/next.svg';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import Footer from "../footer";
 
 const About = () => {
     useEffect(() => {
@@ -252,6 +253,7 @@ const About = () => {
                     }
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }

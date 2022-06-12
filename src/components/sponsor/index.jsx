@@ -13,12 +13,14 @@ import paras from '../../assets/sponsor/paras.png';
 import headRect from '../../assets/icons/headRect.svg';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import Footer from "../footer";
 
 const Sponsor = () => {
     useEffect(() => {
         Aos.init({duration: 2000})
     }, [])
     return (
+        <>
         <div className="sponsor">
             <div className="sponsorTitle">
                 <div data-aos="slide-right" data-aos-once="true">
@@ -120,6 +122,8 @@ const Sponsor = () => {
                 </a>
             </div>
         </div>
+        <Footer />
+        </>
     )
 }
 

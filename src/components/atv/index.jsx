@@ -8,6 +8,7 @@ import BAJAgear2 from '../../assets/icons/BAJAgear2.svg';
 import headRect from '../../assets/icons/headRect.svg';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import Footer from '../footer';
 
 function ATV () {
     useEffect(() => {
@@ -88,6 +89,7 @@ function ATV () {
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }

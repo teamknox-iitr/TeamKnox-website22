@@ -1,6 +1,5 @@
 import './App.css';
-import {BrowserRouter,Routes,Route} from "react-router-dom";
-import Footer from './components/footer';
+import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Navbar from './components/navbar';
 import Home from './components/Home';
 import ScrollToTop from './components/ScrollToTop';
@@ -24,7 +23,6 @@ function App() {
           <Route path='/gallery' element={<Gallery />} />
           <Route path='/contact' element={<Contact />} />
         </Routes>
-        <Footer />
       </BrowserRouter>
     </>
   );

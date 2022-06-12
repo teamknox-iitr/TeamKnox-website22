@@ -30,6 +30,9 @@ const Contact = () => {
                     }
                 </div>
             </div>
+            <div className="copyright">
+                © Copyright 2022 | Team Mechanical & Industrial Engineering | All Rights Reserved.
+            </div>
         </div>
     )
 }

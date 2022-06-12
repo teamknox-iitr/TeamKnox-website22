@@ -20,6 +20,7 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 import NewCarousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import Footer from "../footer";
 
 const Home = () => {
 
@@ -320,6 +321,7 @@ const Home = () => {
                 <br/><br/><br/>
                 <Carousel slides={slides} arrows={true} autoplay={false}/>
             </div>
+            <Footer />
         </div>
     )
 }
