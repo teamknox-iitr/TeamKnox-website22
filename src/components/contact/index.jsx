@@ -21,6 +21,7 @@ const Contact = () => {
                                 <TeamCard 
                                     name={index.name}
                                     position={index.position}
+                                    number={index.number}
                                     image={index.image}
                                     link1={index.linkedin}
                                     link2={index.facebook}
