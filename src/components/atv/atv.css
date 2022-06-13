@@ -73,14 +73,14 @@
 .BAJAgear1 {
     position: absolute;
     left: 50%;
-    transform: translate(-12%, -45%);
+    transform: translate(-50%, 50%);
     opacity: 0.4;
 }
 
 .BAJAgear2 {
     position: absolute;
     left: 50%;
-    transform: translate(-45%, 40%);
+    transform: translate(-106%, 178%);
     opacity: 0.4;
 }
 

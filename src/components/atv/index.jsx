@@ -67,6 +67,32 @@ function ATV () {
                     <img src='https://ik.imagekit.io/difw0fvlzb/BAJA2022_UizyQFqyB.png?ik-sdk-version=javascript-1.4.3&updatedAt=1654199584281' />
                 </div>
             </div>
+            <div className='BAJA2022Res' id='BAJA2022Results' style={{overflow: 'hidden'}}>
+                <div className='BAJA2022Left_content' data-aos="fade-up">
+                    <h2>BAJA SAE 2021</h2>
+                    <h2 style={{color: '#FF7C00'}}>TITAN</h2>
+                    <br/>
+                    <div style={{display: 'flex', gap: '2rem'}}>
+                        <div className='eventRes2022'>
+                            <p>Sales</p>
+                            <p>CAE</p>
+                            <p>Manufacturing</p>
+                            <br/>
+                            <p style={{color: '#FF7C00', fontWeight: 700}}>OVERALL STATIC</p>
+                        </div>
+                        <div className='eventRes2022'>
+                            <p>7th</p>
+                            <p>10th</p>
+                            <p>10th</p>
+                            <br/>
+                            <p style={{color: '#FF7C00', fontWeight: 700}}>18th</p>
+                        </div>
+                    </div>
+                </div>
+                <div className='BAJA2022Right_content' data-aos="slide-left">
+                    <img src='https://ik.imagekit.io/difw0fvlzb/Rectangle_16_eu5Fh8Awe.png?ik-sdk-version=javascript-1.4.3&updatedAt=1655105777639' />
+                </div>
+            </div>
             <div className='sponsor'>
                 <br/>
                 <br/>
