@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import './home.css';
 import wheel from '../../assets/icons/wheel.svg';
 import gear from '../../assets/icons/gear.svg';
@@ -28,13 +28,35 @@ const Home = () => {
         Aos.init();
     }, [])
 
+    var newHeight = 400;
+    const [width, setWidth] = useState(window.innerWidth);
+    const updateWidth = () => {
+        setWidth(window.innerWidth);
+    }
+    useEffect(() => {
+        window.addEventListener('resize', updateWidth);
+        return () => {
+            window.removeEventListener('resize', updateWidth);
+        }   
+    }, []);
+
+    if(width <= 1000) {
+        newHeight = 350;
+    }
+    if(width <= 810) {
+        newHeight = 300;
+    }
+    if(width <= 700) {
+        newHeight = 275;
+    }
+
     let slides = [
-        <img  src='https://ik.imagekit.io/difw0fvlzb/news/Media_8_rRlz8uqMb.png?ik-sdk-version=javascript-1.4.3&updatedAt=1654198619259' alt="1" height={400} />,
-        <img  src='https://ik.imagekit.io/difw0fvlzb/news/Media_7_CvAqce5dR.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1654198618951' alt="2" height={400}/>,
-        <img  src='https://ik.imagekit.io/difw0fvlzb/news/Earlier_Media_5_EOiVvF0Ed.png?ik-sdk-version=javascript-1.4.3&updatedAt=1654198618790' alt="3" height={400}/>,
-        <img  src='https://ik.imagekit.io/difw0fvlzb/news/Earlier_Media_1_JrSImAfd6.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1654198617455' alt="4" height={400}/>,
-        <img  src='https://ik.imagekit.io/difw0fvlzb/news/Earlier_Media_3_KIoX1UitC.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1654198617931' alt="5" height={400}/>,
-        <img  src='https://ik.imagekit.io/difw0fvlzb/news/Earlier_Media_2_LeTW3Mkzs.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1654198617567' alt="6" height={400}/>,
+        <img  src='https://ik.imagekit.io/difw0fvlzb/news/Media_8_rRlz8uqMb.png?ik-sdk-version=javascript-1.4.3&updatedAt=1654198619259' alt="1" height={newHeight} />,
+        <img  src='https://ik.imagekit.io/difw0fvlzb/news/Media_7_CvAqce5dR.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1654198618951' alt="2" height={newHeight}/>,
+        <img  src='https://ik.imagekit.io/difw0fvlzb/news/Earlier_Media_5_EOiVvF0Ed.png?ik-sdk-version=javascript-1.4.3&updatedAt=1654198618790' alt="3" height={newHeight}/>,
+        <img  src='https://ik.imagekit.io/difw0fvlzb/news/Earlier_Media_1_JrSImAfd6.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1654198617455' alt="4" height={newHeight}/>,
+        <img  src='https://ik.imagekit.io/difw0fvlzb/news/Earlier_Media_3_KIoX1UitC.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1654198617931' alt="5" height={newHeight}/>,
+        <img  src='https://ik.imagekit.io/difw0fvlzb/news/Earlier_Media_2_LeTW3Mkzs.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1654198617567' alt="6" height={newHeight}/>,
     ];
 
     const responsive = {
@@ -319,7 +341,7 @@ const Home = () => {
                     Each and every one of us has that moment when we are suddenly stunned when we come face to face with the enormity of the universe.
                 </p>
                 <br/><br/><br/>
-                <Carousel slides={slides} arrows={true} autoplay={false}/>
+                <Carousel slides={slides} arrows={true} autoplay={false} />
             </div>
             <Footer />
         </div>

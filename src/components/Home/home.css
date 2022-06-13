@@ -6,16 +6,18 @@
 
 .hero {
     width: 100%;
-    height: 100vh;
+    height: 43vw;
     background: linear-gradient(90deg, #0D0D0D 0%, rgba(13, 13, 13, 0) 100%), url('https://ik.imagekit.io/difw0fvlzb/hero_hn8H4-ye0.png?ik-sdk-version=javascript-1.4.3&updatedAt=1654197763707') no-repeat center / cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 
 .hero_content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-115%, -32%);
     text-align: center;
+    padding-top: 5vmax;
+    padding-right: 45vmax;
 }
 
 .hero_content > h4 {
@@ -38,7 +40,6 @@
     color: #FFFFFF;
     font-size: 3rem;
     letter-spacing: -1.2px;
-    line-height: 3.5rem;
     min-width: max-content;
 }
 
@@ -83,7 +84,6 @@ h5 {
     font-style: normal;
     font-weight: 700;
     font-size: 3rem;
-    line-height: 2rem;
     letter-spacing: -1.2px;
     color: #FFFFFF;
     padding-bottom: 2rem;
@@ -116,16 +116,16 @@ h5 {
 }
 
 .knowImg {
-    width: 30rem;
+    width: 35vmax;
     position: relative;
     z-index: 2;
 }
 
 .gearImg {
     position: absolute;
-    top: 120vh;
-    right: 2vw;
     z-index: 0;
+    right: 0;
+    transform: translate(-10%, -50%);
     overflow: hidden;
 }
 
@@ -296,14 +296,104 @@ h5 {
     text-align: left;
 }
 
-@media(max-width: 80em) {
+@media(max-width: 1100px) {
     .hero_content {
-        transform: translate(-100%, -20%);
+        padding-right: 25vmax;
+    }
+    .know, .news {
+        padding: 8rem 4rem;
+        gap: 4rem;
+    }
+    .atv {
+        padding: 0 4rem;
+        gap: 4rem;
+    }
+    .partner {
+        padding: 1rem 4rem;
+    }
+    .stats {
+        padding: 0 3rem;
+    }
+    .statLine1 {
+        gap: 4rem;
     }
 }
 
-@media(max-width: 60em) {
+@media(max-width: 810px) {
+    .hero_content > h2 {
+        font-size: 2rem;
+    }
+    .road {
+        font-size: 3rem;
+    }
+    h5 {
+        font-size: 1rem;
+    }
+    .know, .news {
+        flex-direction: column;
+        padding: 3rem;
+        gap: 3rem;
+    }
+    .atv {
+        flex-direction: column;
+        padding: 0 3rem;
+        gap: 3rem;
+    }
+    .partner {
+        padding: 1rem 3rem;
+    }
+    .knowImg {
+        width: 100%;
+    }
+    .wheelImg {
+        padding-bottom: 1rem;
+    }
+    .gearImg {
+        display: none;
+    }
+    .stats {
+        padding: 0 2rem;
+    }
+    .statLine1 {
+        gap: 3rem;
+    }
+}
+
+@media(max-width: 565px) {
+    .know, .news {
+        padding: 3rem 2rem;
+        gap: 2rem;
+    }
+    .atv {
+        padding: 0 2rem;
+        gap: 2rem;
+    }
+    .partner {
+        padding: 1rem 2rem;
+    }
+    .statLine1 {
+        all: unset;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
     .hero_content {
-        transform: translate(-50%, -20%);
+        padding: 0;
+    }
+    .hero_content > h2 {
+        font-size: 1.5rem;
+    }
+    .road {
+        font-size: 2rem;
+    }
+    h5 {
+        font-size: 0.8rem;
+        line-height: 0.8rem;
+    }
+    .hero_content > h4 {
+        font-size: 0.6rem;
+        margin-bottom: 0.8rem;
     }
 }
