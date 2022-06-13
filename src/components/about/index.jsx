@@ -131,13 +131,13 @@ const About = () => {
         <div style={{background: '#0D0D0D'}}>
             <div className="aboutHero">
                 <img src='https://ik.imagekit.io/difw0fvlzb/aboutHero_5Ed__nXTE.png?ik-sdk-version=javascript-1.4.3&updatedAt=1654197746567' width='100%' />
+                <div className="aboutTitle">
+                    <h1 data-aos="fade-up">About Us</h1>
+                </div>
                 <div className="aboutDesc">
                     <p data-aos="fade-up">
                         Team KNOx IIT Roorkee is the official off-road racing team of IITR. The team designs and fabricates an off-road vehicle and participate in National level competition BAJA SAE India, the most prominent engineering level competition held in the country. Team KNOx provides a big platform to all the creative people who starve to work out of the box and are willing to sweat it out to achieve something. The team is open to all students of all disciplines with passion and dedication being the two main prerequisites. Mechanical design and marketing are the two main verticals under which the students work in the team.
                     </p>
-                </div>
-                <div className="aboutTitle">
-                    <h1 data-aos="fade-up">About Us</h1>
                 </div>
                 <img src='https://ik.imagekit.io/difw0fvlzb/aboutHero2_N4NTLoPDn.png?ik-sdk-version=javascript-1.4.3&updatedAt=1654197753720' width='100%' />
             </div>
@@ -178,31 +178,31 @@ const About = () => {
                 <br/><br/><br/><br/>
                 <div className="teamTabs">
                     <div className={tabStyle1} onClick={changeStyle1}>
-                        <img src={powertrain} height='60vh'/>
+                        <img src={powertrain} className="tabImg"/>
                         <h3>Powertrain</h3>
                     </div>
                     <div className={tabStyle2} onClick={changeStyle2}>
-                        <img src={rollcage} height='60vh'/>
+                        <img src={rollcage} className="tabImg"/>
                         <h3>Rollcage</h3>
                     </div>
                     <div className={tabStyle3} onClick={changeStyle3}>
-                        <img src={suspension} height='60vh'/>
+                        <img src={suspension} className="tabImg"/>
                         <h3>Suspension</h3>
                     </div>
                     <div className={tabStyle4} onClick={changeStyle4}>
-                        <img src={steering} height='60vh'/>
+                        <img src={steering} className="tabImg"/>
                         <h3>Steering</h3>
                     </div>
                     <div className={tabStyle5} onClick={changeStyle5}>
-                        <img src={braking} height='60vh'/>
+                        <img src={braking} className="tabImg"/>
                         <h3>Braking</h3>
                     </div>
                     <div className={tabStyle6} onClick={changeStyle6}>
-                        <img src={marketing} height='60vh'/>
+                        <img src={marketing} className="tabImg"/>
                         <h3>Marketing</h3>
                     </div>
                     <div className={tabStyle7} onClick={changeStyle7}>
-                        <img src={design} height='60vh'/>
+                        <img src={design} className="tabImg"/>
                         <h3>Design</h3>
                     </div>
                 </div>

@@ -26,6 +26,7 @@
     position: absolute;
     right: 48%;
     transform: translate(0, -200%);
+    z-index: 10;
 }
 
 .aboutTitle > h1 {
@@ -62,7 +63,6 @@
     font-style: normal;
     font-weight: 400;
     font-size: 1.2rem;
-    line-height: 2rem;
     letter-spacing: -0.3px;
     color: #CFCCCE;
 }
@@ -73,6 +73,7 @@
     justify-content: center;
     align-items: center;
     gap: 5rem;
+    flex-wrap: wrap;
 }
 
 .teamTab {
@@ -131,4 +132,78 @@
     text-align: center;
     letter-spacing: -1.2px;
     color: #FFFFFF;
+}
+
+.tabImg {
+    height: 4rem;
+}
+
+@media(max-width: 1225px) {
+    .teamTabs {
+        gap: 3rem;
+    }
+    .team {
+        padding: 4rem 7rem;
+    }
+    .aboutDesc > p {
+        font-size: 1rem;
+    }
+    .aboutDesc {
+        padding: 3rem 3rem 3rem 12rem;
+    }
+}
+
+@media(max-width: 1000px) {
+    .team {
+        padding: 4rem 3rem;
+    }
+    .tabImg {
+        height: 3rem;
+    }
+    .aboutDesc {
+        padding: 2rem 2rem 2rem 10rem;
+    }
+}
+
+@media(max-width: 840px) {
+    .tabImg {
+        height: 2rem;
+    }
+    .teamTabs {
+        gap: 2rem;
+    }
+    .aboutDesc {
+        all: unset;
+    }
+    .aboutDesc > p {
+        padding: 2rem;
+    }
+    .aboutTitle {
+        all: unset;
+        text-align: center;
+    }
+    .aboutTitle > h1 {
+        padding-top: 2rem;
+    }
+}
+
+@media(max-width: 725px) {
+    .teamTabs {
+        gap: 1rem;
+    }
+    .management {
+        gap: 3rem;
+    }
+    .teamMembers {
+        gap: 3rem;
+    }
+    .aboutTitle > h1 {
+        font-size: 3rem;
+    }
+}
+
+@media(max-width: 470px) {
+    .team {
+        padding: 4rem 1rem;
+    }
 }
