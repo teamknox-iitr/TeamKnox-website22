@@ -1,0 +1,75 @@
+.contactHeader {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 5rem;
+    letter-spacing: -1.6px;
+    color: #FFFFFF;
+    padding: 2rem 7rem 1.5rem 7rem;
+}
+
+.map {
+    padding: 0 7rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.formField > p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.9rem;
+    letter-spacing: -0.3px;
+    color: rgba(255, 251, 254, 0.8);
+    padding: 0.6rem;
+}
+
+input {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    height: 2rem;
+    width: 15rem;
+    padding: 1rem;
+    background: #0D0D0D;
+    font-size: 1.2rem;
+    font-family: 'Inter';
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+#message {
+    width: 33rem;
+    height: 10rem;
+    resize: none;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    padding: 1rem;
+    background: #0D0D0D;
+    font-size: 1.2rem;
+    font-family: 'Inter';
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+::placeholder{
+    color: white;
+    opacity: 0.5;
+}
+input :focus{
+    border: 3px solid white;
+}
+
+#submit {
+    all: unset;
+    background: #FF7C00;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.2rem;
+    letter-spacing: -0.3px;
+    color: #FFFBFE;
+    padding: 1rem 2.5rem;
+    cursor: pointer;
+}
