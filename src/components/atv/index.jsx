@@ -12,7 +12,7 @@ import Footer from '../footer';
 
 function ATV () {
     useEffect(() => {
-        Aos.init({duration: 2000})
+        Aos.init({duration: 2000, once: true});
     }, [])
     return (
         <div style={{background: '#0D0D0D'}}>
@@ -22,7 +22,6 @@ function ATV () {
                     <div style={{paddingRight: '1rem', textAlign: 'right'}}>
                         <h5 data-aos="fade-up">...in shining armor</h5>
                     </div>
-                    <br/>
                     <br/>
                     <a href='#BAJA2022Results'>
                         <img src={dropDown} data-aos="fade-up"/>
@@ -89,7 +88,7 @@ function ATV () {
                         </div>
                     </div>
                 </div>
-                <div className='BAJA2022Right_content' data-aos="slide-left">
+                <div className='BAJA2022Right_content' data-aos="slide-left" id="Titan2021">
                     <img src='https://ik.imagekit.io/difw0fvlzb/Rectangle_16_eu5Fh8Awe.png?ik-sdk-version=javascript-1.4.3&updatedAt=1655105777639' />
                 </div>
             </div>

@@ -2,15 +2,16 @@
 
 .atvHero {
     width: 100%;
-    height: 100vh;
+    height: 43vw;
     background: linear-gradient(90deg, #0D0D0D 0%, rgba(13, 13, 13, 0) 119.14%), url('https://ik.imagekit.io/difw0fvlzb/2022_dbXgUQzB1.png?ik-sdk-version=javascript-1.4.3&updatedAt=1654197763870') no-repeat center / cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 
 .atv_hero_content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-160%, -12%);
+    padding: 5rem 50rem 0 0;
     text-align: center;
 }
 
@@ -25,7 +26,6 @@
     font-style: normal;
     font-weight: 600;
     font-size: 4.2rem;
-    line-height: 4.5rem;
     letter-spacing: -0.1px;
     color: #FFFFFF;
 }
@@ -55,7 +55,6 @@
     font-style: normal;
     font-weight: 700;
     font-size: 3rem;
-    line-height: 4rem;
     letter-spacing: -1.2px;
     color: #FFFFFF;
 }
@@ -112,5 +111,103 @@
     }
     to {
       transform: rotate(-359deg);
+    }
+}
+
+@media(max-width: 1250px) {
+    .atv_hero_content {
+        padding: 5rem 30rem 0 0;
+    }
+    .BAJA2022Right_content > img {
+        height: 25rem;
+    }
+    .BAJA2022Left_content > h2 {
+        font-size: 2.5rem;
+    }
+}
+
+@media(max-width: 1000px) {
+    .BAJA2022Left_content {
+        padding-left: 5rem;
+    }
+}
+
+@media(max-width: 920px) {
+    .atv_hero_content > h2 {
+        font-size: 3rem;
+    }
+    .atvTHE {
+        font-size: 3rem;
+    }
+    .BAJA2022Left_content > h2 {
+        font-size: 2rem;
+    }
+    .eventRes2022 {
+        font-size: 1rem;
+    }
+    .BAJA2022Right_content > img {
+        height: 22rem;
+    }
+    .BAJA2022Left_content {
+        padding-left: 3rem;
+    }
+}
+
+@media(max-width: 800px) {
+    .atv_hero_content {
+        padding: 5rem 20rem 0 0;
+    }
+    .BAJAgear1 {
+        display: none;
+    }
+    .BAJAgear2 {
+        display: none;
+    }
+    .eventRes2022 {
+        font-size: 1.3rem;
+    }
+    .BAJA2022Res {
+        all: unset;
+        width: 100%;
+    }
+    .BAJA2022Left_content {
+        padding-top: 2rem;
+    }
+    .BAJA2022Right_content {
+        text-align: right;
+    }
+    .BAJA2022Right_content > img {
+        width: 100vw;
+        object-fit: contain;
+    }
+    #Titan2021 > img{
+        transform: scaleX(-1);
+    }
+}
+
+@media(max-width: 675px) {
+    .atv_hero_content > h2 {
+        font-size: 2rem;
+    }
+    .atvTHE {
+        font-size: 2rem;
+    }
+    .atv_hero_content > a > img {
+        width: 1.5rem;
+    }
+    .atv_hero_content {
+        padding-top: 0;
+    }
+    .sponsorTitle {
+        font-size: 1.5rem;
+    }
+    .allAtvs {
+        gap: 3rem;
+    }
+}
+
+@media(max-width: 540px) {
+    .atv_hero_content {
+        padding: 0;
     }
 }
