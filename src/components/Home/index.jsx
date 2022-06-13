@@ -139,11 +139,12 @@ const Home = () => {
                         <div className="statCard">
                             <div className="statInfo">
                                 <p>Rank</p>
-                                <h2 style={{fontSize: '6rem'}}>6</h2>
+                                <h1 className="statRank">6</h1>
                             </div>
                             <div className="statDesc">
                                 <p>DYNAMIC EVENT</p>
-                                <h2><span style={{color: '#FFF', fontWeight: 700}}>ACCELERATION</span> event</h2>
+                                <h2><span style={{color: '#FFF', fontWeight: 700}}>ACCELERATION</span></h2>
+                                <h2>event</h2>
                             </div>
                             <p className="statCardTitle">BAJA SAE 2022</p>
                         </div>
@@ -152,7 +153,7 @@ const Home = () => {
                         <div className="statCard">
                             <div className="statInfo">
                                 <p>Rank</p>
-                                <h2 style={{fontSize: '6rem'}}>6</h2>
+                                <h1 className="statRank">6</h1>
                             </div>
                             <div className="statDesc">
                                 <p>DYNAMIC EVENT</p>
@@ -165,7 +166,7 @@ const Home = () => {
                         <div className="statCard">
                             <div className="statInfo">
                                 <p>Rank</p>
-                                <h2 style={{fontSize: '6rem'}}>6</h2>
+                                <h1 className="statRank">6</h1>
                             </div>
                             <div className="statDesc">
                                 <p>STATIC EVENT</p>
@@ -179,7 +180,7 @@ const Home = () => {
                         <div className="statCard">
                             <div className="statInfo">
                                 <p>Rank</p>
-                                <h2 style={{fontSize: '6rem'}}>7</h2>
+                                <h1 className="statRank">7</h1>
                             </div>
                             <div className="statDesc">
                                 <p>STATIC EVENT</p>
@@ -193,7 +194,7 @@ const Home = () => {
                         <div className="statCard">
                             <div className="statInfo">
                                 <p>Rank</p>
-                                <h2 style={{fontSize: '6rem'}}>7</h2>
+                                <h1 className="statRank">7</h1>
                             </div>
                             <div className="statDesc">
                                 <p>STATIC EVENT</p>
@@ -207,7 +208,7 @@ const Home = () => {
                         <div className="statCard">
                             <div className="statInfo">
                                 <p>Rank</p>
-                                <h2 style={{fontSize: '6rem'}}>10</h2>
+                                <h1 className="statRank">10</h1>
                             </div>
                             <div className="statDesc">
                                 <p>STATIC EVENT</p>
@@ -221,7 +222,7 @@ const Home = () => {
                         <div className="statCard">
                             <div className="statInfo">
                                 <p>Rank</p>
-                                <h2 style={{fontSize: '6rem'}}>10</h2>
+                                <h1 className="statRank">10</h1>
                             </div>
                             <div className="statDesc">
                                 <p>STATIC EVENT</p>
@@ -235,7 +236,7 @@ const Home = () => {
                         <div className="statCard">
                             <div className="statInfo">
                                 <p>Rank</p>
-                                <h2 style={{fontSize: '6rem'}}>7</h2>
+                                <h1 className="statRank">7</h1>
                             </div>
                             <div className="statDesc">
                                 <p>VIRTUAL EVENT</p>
@@ -249,7 +250,7 @@ const Home = () => {
                         <div className="statCard">
                             <div className="statInfo">
                                 <p>Rank</p>
-                                <h2 style={{fontSize: '6rem'}}>2</h2>
+                                <h1 className="statRank">2</h1>
                             </div>
                             <div className="statDesc">
                                 <p>STATIC EVENT</p>
@@ -263,7 +264,7 @@ const Home = () => {
                         <div className="statCard">
                             <div className="statInfo">
                                 <p>Rank</p>
-                                <h2 style={{fontSize: '6rem'}}>13</h2>
+                                <h1 className="statRank">13</h1>
                             </div>
                             <div className="statDesc">
                                 <h2><span style={{color: '#FFF', fontWeight: 700}}>OVERALL</span></h2>
@@ -275,7 +276,7 @@ const Home = () => {
                         <div className="statCard">
                             <div className="statInfo">
                                 <p>Rank</p>
-                                <h2 style={{fontSize: '6rem'}}>10</h2>
+                                <h1 className="statRank">10</h1>
                             </div>
                             <div className="statDesc">
                                 <h2><span style={{color: '#FFF', fontWeight: 700}}>OVERALL</span></h2>

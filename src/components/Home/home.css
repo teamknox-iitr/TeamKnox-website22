@@ -256,7 +256,7 @@ h5 {
     display: flex;
     align-items: center;
     padding: 2rem 2.5rem;
-    width: 100%;
+    width: 40vw;
     justify-content: space-between;
 }
 
@@ -296,7 +296,53 @@ h5 {
     text-align: left;
 }
 
+.statRank {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 6rem;
+    line-height: 5rem;
+    letter-spacing: -1.6px;
+    color: #FF7C00;
+}
+
+@media(max-width: 1280px) {
+    .statCardTitle {
+        transform: translate(100%, 300%);
+    }
+    .tyreLeft {
+        width: 25vw;
+    }
+    .tyreRight {
+        width: 25vw;
+    }
+    .bajaStats {
+        width: 50vw;
+    }
+    .statCard {
+        width: 50vw;
+    }
+}
+
+@media(max-width: 1000px) {
+    .bajaStats {
+        width: 60vw;
+    }
+    .statCard {
+        width: 60vw;
+    }
+    .tyreLeft {
+        width: 20vw;
+    }
+    .tyreRight {
+        width: 20vw;
+    }
+}
+
 @media(max-width: 1100px) {
+    .statCardTitle {
+        transform: translate(80%, 300%);
+    }
     .hero_content {
         padding-right: 25vmax;
     }
@@ -320,6 +366,22 @@ h5 {
 }
 
 @media(max-width: 810px) {
+    .bajaStats {
+        width: 80vw;
+    }
+    .statCard {
+        width: 80vw;
+        padding: 2.2rem 1.5rem;
+    }
+    .tyreLeft {
+        width: 10vw;
+    }
+    .tyreRight {
+        width: 10vw;
+    }
+    .statCardTitle {
+        transform: translate(60%, 300%);
+    }
     .hero_content > h2 {
         font-size: 2rem;
     }
@@ -356,6 +418,18 @@ h5 {
     }
     .statLine1 {
         gap: 3rem;
+    }
+    .statInfo > p {
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+    .statInfo > h2 {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    .statRank {
+        font-size: 4rem;
+        line-height: 3rem;
     }
 }
 
@@ -395,5 +469,29 @@ h5 {
     .hero_content > h4 {
         font-size: 0.6rem;
         margin-bottom: 0.8rem;
+    }
+    .tyreLeft {
+        display: none;
+    }
+    .tyreRight {
+        display: none;
+    }
+    .bajaStats {
+        width: 90vw;
+    }
+    .statCard {
+        width: 90vw;
+        padding: 2.2rem 1rem;
+    }
+    .statDesc > p {
+        font-size: 0.6rem;
+        line-height: 1rem;
+    }
+    .statDesc > h2 {
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+    .statCardTitle {
+        transform: translate(50%, 250%);
     }
 }
