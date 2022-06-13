@@ -166,9 +166,11 @@ h5 {
 }
 
 .news {
+    display: block;
     background-color: #0D0D0D;
     padding: 8rem;
     text-align: center;
+    height: fit-content;
 }
 
 .stats {
