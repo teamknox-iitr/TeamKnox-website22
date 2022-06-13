@@ -66,3 +66,37 @@
 .associateSponsor > a > img {
     height: 7rem;
 }
+
+@media(max-width: 596px) {
+    .associateSponsor {
+        gap: 3rem;
+    }
+    .associateSponsor > a > img {
+        height: 5rem;
+    }
+    .guviImg {
+        height: 5rem;
+    }
+    .eliteImg {
+        height: 5rem;
+    }
+    .skillImg {
+        height: 5rem;
+    }
+    .mavoxImg {
+        height: 5rem;
+    }
+    .otherSponsor {
+        padding: 2rem 3rem;
+        gap: 3rem;
+    }
+}
+
+@media(max-width: 480px) {
+    .associateSponsor {
+        gap: 2rem;
+    }
+    .associateSponsor > a > img {
+        height: 3rem;
+    }
+}
