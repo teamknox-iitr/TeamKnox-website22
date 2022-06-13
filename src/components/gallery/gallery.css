@@ -2,5 +2,23 @@
 
 .gallery {
     background-color: #0D0D0D;
-    padding: 4rem 12rem 4rem 12rem;
+    padding: 4rem 12rem;
+}
+
+@media(max-width: 970px) {
+    .gallery {
+        padding: 4rem 6rem;
+    }
+}
+
+@media(max-width: 596px) {
+    .gallery {
+        padding: 4rem 3rem;
+    }
+}
+
+@media(max-width: 420px) {
+    .gallery {
+        padding: 4rem 1rem;
+    }
 }
