@@ -13,6 +13,7 @@
     padding: 0 7rem;
     display: flex;
     justify-content: space-between;
+    overflow: hidden;
 }
 
 .formField > p {
@@ -72,4 +73,115 @@ input :focus{
     color: #FFFBFE;
     padding: 1rem 2.5rem;
     cursor: pointer;
+}
+
+.nameEmail {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+@media(max-width: 1230px) {
+    input {
+        width: 12rem;
+        height: 1.5rem;
+    }
+    #message {
+        width: 27rem;
+    }
+}
+
+@media(max-width: 1127px) {
+    .contactHeader {
+        padding: 2rem 5rem 1.5rem 5rem;
+    }
+    .map {
+        padding: 0 5rem;
+    }
+}
+
+@media(max-width: 1050px) {
+    .contactHeader {
+        padding: 2rem 3rem 1.5rem 3rem;
+    }
+    .map {
+        padding: 0 3rem;
+    }
+}
+
+@media(max-width: 979px) {
+    input {
+        width: 10rem;
+        height: 1.2rem;
+    }
+    #message {
+        width: 23rem;
+    }
+}
+
+@media(max-width: 880px) {
+    .contactHeader {
+        padding: 2rem 7rem 1.5rem 7rem;
+    }
+    .map {
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+        padding: 0 7rem;
+    }
+    input {
+        width: 15rem;
+        height: 2rem;
+    }
+    #message {
+        width: 33rem;
+    }
+}
+
+@media(max-width: 756px) {
+    input {
+        width: 10rem;
+        height: 1.2rem;
+    }
+    #message {
+        width: 23rem;
+    }
+}
+
+@media(max-width: 600px) {
+    .contactHeader {
+        padding: 2rem 3rem 1.5rem 3rem;
+    }
+    .map {
+        padding: 0 3rem;
+    }
+}
+
+@media(max-width: 485px) {
+    .contactHeader {
+        padding: 2rem 1rem 1.5rem 1rem;
+    }
+    .map {
+        padding: 0 1rem;
+    }
+}
+
+@media(max-width: 436px) {
+    .nameEmail {
+        flex-direction: column;
+        justify-content: center;
+    }
+    input {
+        width: 20rem;
+        height: 2rem;
+    }
+    #message {
+        width: 20rem;
+    }
+    .map {
+        align-items: center;
+    }
+    .contactHeader {
+        padding: 2rem 2rem 1rem 2rem;
+    }
 }

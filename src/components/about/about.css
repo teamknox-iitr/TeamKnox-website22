@@ -120,6 +120,7 @@
     justify-content: center;
     gap: 6rem;
     padding-top: 4rem;
+    flex-wrap: wrap;
 }
 
 .yearChange {

@@ -1,12 +1,43 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import management from '../about/data/management.json';
 import TeamCard from '../teamCard';
 import './contact.css';
 
 const Contact = () => {
 
-    var width = 500;
-    var height = 450;
+    var mapWidth = 500;
+    var mapHeight = 450;
+
+    const [width, setWidth] = useState(window.innerWidth);
+    const updateWidth = () => {
+        setWidth(window.innerWidth);
+    }
+    useEffect(() => {
+        window.addEventListener('resize', updateWidth);
+        return () => {
+            window.removeEventListener('resize', updateWidth);
+        }   
+    }, []);
+    if(width <= 1320) {
+        mapWidth = 400;
+        mapHeight = mapWidth * 0.9;
+    }
+    if(width <= 945) {
+        mapWidth = 350;
+        mapHeight = mapWidth * 0.9;
+    }
+    if(width <= 880) {
+        mapWidth = 575;
+        mapHeight = mapWidth * 0.9;
+    }
+    if(width <= 756) {
+        mapWidth = 400;
+        mapHeight = mapWidth * 0.9;
+    }
+    if(width <= 436) {
+        mapWidth = 350;
+        mapHeight = mapWidth * 0.9;
+    }
 
     var emailURL = 'https://mail.google.com/mail/u/0/?fs=1&to=teamknox@iitr.ac.in&su=';
     const [mail, SetMail] = useState({
@@ -33,7 +64,7 @@ const Contact = () => {
             <div className="map">
                 <div className="contactForm">
                     <form className="form" onSubmit={(e) => sendMail(e)}>
-                        <div style={{ display: 'flex', gap: '1rem' }}>
+                        <div className="nameEmail">
                             <div className="formField">
                                 <p>FULL NAME</p>
                                 <input onChange={(e) => handle(e)} type="text" id="fname" name="fname" placeholder="Name" required/>
@@ -55,7 +86,7 @@ const Contact = () => {
                         </div>
                     </form>
                 </div>
-                <div dangerouslySetInnerHTML={{__html: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1730.0110115508562!2d77.89135641744384!3d29.86363870000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390eb3701b8099e7%3A0x88384981b4369aa6!2sTeam%20KNOx%20Workshop!5e0!3m2!1sen!2sin!4v1654795164017!5m2!1sen!2sin" width='+width+' height='+height+' style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'}} />
+                <div dangerouslySetInnerHTML={{__html: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1730.0110115508562!2d77.89135641744384!3d29.86363870000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390eb3701b8099e7%3A0x88384981b4369aa6!2sTeam%20KNOx%20Workshop!5e0!3m2!1sen!2sin!4v1654795164017!5m2!1sen!2sin" width='+mapWidth+' height='+mapHeight+' style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'}} />
             </div>
             <div className="team">
                 <div className="management">
