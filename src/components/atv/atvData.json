@@ -5,8 +5,13 @@
         "image": "https://ik.imagekit.io/difw0fvlzb/ATV/2020_NIITRO_Ee3v61bbm.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1655104040679"
     },
     {
-        "name": "MK-1",
+        "name": "Sphinx",
         "year": "2019",
+        "image": "https://ik.imagekit.io/difw0fvlzb/ATV/Photo_BAJA_2019_QFvf-pwuj.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1655192856030"
+    },
+    {
+        "name": "MK-1",
+        "year": "2018",
         "image": "https://ik.imagekit.io/difw0fvlzb/ATV/2018_MK-1_nbhPsSged.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1654199180561"
     },
     {
