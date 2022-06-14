@@ -30,6 +30,11 @@ ul {
     display: none;
 }
 
+.mobile {
+    display: flex;
+    gap: 2rem;
+}
+
 .active {
     display: inline-block;
     text-decoration: none;
@@ -60,7 +65,7 @@ ul {
     color: #FFF;
 }
 
-@media(max-width: 55em) {
+@media(max-width: 882px) {
     .mobile {
         display: flex;
         gap: 2rem;

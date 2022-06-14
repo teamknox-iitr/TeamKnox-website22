@@ -17,7 +17,7 @@ const Navbar = () => {
         }   
     }, []);
     const handleClick = () => {
-        if(width < 882) {
+        if(width <= 882) {
             setClick(!click);
         }
     };
