@@ -28,7 +28,7 @@ const Home = () => {
         Aos.init();
     }, [])
 
-    const [newHeight, setNewHeight] = useState(400);
+    var newHeight = 400;
     const [width, setWidth] = useState(window.innerWidth);
     const updateWidth = () => {
         setWidth(window.innerWidth);
@@ -41,13 +41,13 @@ const Home = () => {
     }, []);
 
     if(width <= 1000) {
-        setNewHeight(350);
+        newHeight = 350;
     }
     if(width <= 810) {
-        setNewHeight(300);
+        newHeight = 300;
     }
     if(width <= 700) {
-        setNewHeight(275);
+        newHeight = 275;
     }
 
     let slides = [
