@@ -10,6 +10,7 @@ import tata from '../../assets/sponsor/tata.png';
 import flowgain from '../../assets/sponsor/flowgain.png';
 import bpcl from '../../assets/sponsor/bpcl.png';
 import paras from '../../assets/sponsor/paras.png';
+import altair from '../../assets/sponsor/altair.png';
 import headRect from '../../assets/icons/headRect.svg';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
@@ -66,6 +67,9 @@ const Sponsor = () => {
                 <h2 data-aos='fade-up' style={{fontWeight: 400, color: 'rgba(255, 251, 254, 0.8)'}}><span style={{fontWeight: 700, color: '#FFFFFF'}}>ASSOCIATE</span> Sponsor</h2>
             </div>
             <div className="associateSponsor" data-aos="fade-up" data-aos-delay={1000}>
+                <a href="https://www.altair.com/" target="_blank">
+                    <img src={altair} alt="altair" className="makImg"/>
+                </a>
                 <a href="https://www.bharatpetroleum.in/our-businesses/mak-lubricants/about-mak-lubricants.aspx" target="_blank">
                     <img src={mak} alt="mak" className="makImg"/>
                 </a>
